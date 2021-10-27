@@ -1,7 +1,7 @@
 = Schicksalhafte Schatten
 
-Ein https://faterpg.de/[Fate Core] basiertes Rollenspielsystem im https://www.shadowrun6.de/
-[Shadowrun-Universum].
+Ein https://faterpg.de/[Fate Core] basiertes Rollenspielsystem im 
+https://www.shadowrun6.de/[Shadowrun-Universum].
 
 Dieses Repo enthält die Quellen für das Rollenspielsystem _Schicksalhafte Schatten_, eine Adaption
 des Shadowrun6 Universums mit den Regeln von Fate Core. Du solltes vertraut mit Fate Core sein, um
