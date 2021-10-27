@@ -1,0 +1,86 @@
+font:
+  catalog:
+    Roboto:
+      normal: google-roboto/Roboto-Regular.ttf
+      italic: google-roboto/Roboto-Italic.ttf
+      bold: google-roboto/Roboto-Bold.ttf
+      bold_italic: google-roboto/Roboto-BoldItalic.ttf
+    Fate-Core:
+      normal: fate-core/Fate Core Font.ttf
+      italic: fate-core/Fate Core Font.ttf
+      bold: fate-core/Fate Core Font.ttf
+      bold_italic: fate-core/Fate Core Font.ttf
+  
+page:
+  layout: portrait
+  margin: [24mm, 28mm, 24mm, 28mm]
+  size: A4
+
+base:
+  font-color: #333333
+  font-family: Roboto
+  font-size: 12
+  line-height-length: 17
+  line-height: $base-line-height-length / $base-font-size
+  align: justify
+
+sidebar:
+  background-color: #fafafa
+  border-color: #A93970
+  border-radius: 4
+  border-width: 2
+  title:
+    font-color: #A93970
+
+role:
+  icon:
+    font-family: Fate-Core
+    font-size: 18
+    font-color: #A93970
+  aspekt:
+    font-color: #A93970
+    font-style: italic
+
+admonition:
+  label:
+    font-color: #A93970
+
+example:
+  border-color: #A93970
+  border-radius: 4
+
+vertical-spacing: $base-line-height-length
+
+heading:
+  font-color: #A93970
+  font-size: 17
+  font-style: bold
+  line-height: 1.2
+  margin-bottom: $vertical-spacing
+
+title-page:
+  title:
+    font-color: #A93970
+  logo:
+    image:
+
+link:
+  font-color: #A93970
+
+outline-list:
+  indent: $base-font-size * 1.5
+
+footer:
+  height: $base-line-height-length * 2.5
+  line-height: 1
+  center:
+  recto:
+    right:
+      content: ""
+    center:
+      content: '{page-number}'
+  verso:
+    left:
+      content: ""
+    center:
+      content: $footer-recto-center-content

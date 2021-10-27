@@ -1,0 +1,27 @@
+FROM registry.access.redhat.com/ubi8/ubi-init
+
+ARG roboto_font_download_url=https://github.com/googlefonts/roboto/releases/download/v2.138/roboto-unhinted.zip
+ARG fate_core_font_download_url=https://faterpg.de/download/sonstiges/Fate-Core-Font.zip
+
+RUN dnf install -y ruby ruby-devel wget unzip
+
+RUN gem install asciidoctor
+RUN gem install asciidoctor-pdf
+
+RUN mkdir -p /usr/share/fonts/google-roboto
+RUN wget -O /tmp/roboto-fonts.zip ${roboto_font_download_url}
+RUN unzip -d /usr/share/fonts/google-roboto /tmp/roboto-fonts.zip -x "__MACOSX/*"
+
+RUN mkdir -p /usr/share/fonts/fate-core
+RUN wget -O /tmp/fate-core.zip ${fate_core_font_download_url}}
+RUN unzip -d /usr/share/fonts/fate-core /tmp/fate-core.zip
+
+RUN mkdir -p /opt/asciidoctor/styles
+COPY styles/* /opt/asciidoctor/styles
+COPY .container/entrypoint.sh /opt/asciidoctor
+RUN chmod u+x /opt/asciidoctor/entrypoint.sh
+
+VOLUME /src
+VOLUME /out
+
+ENTRYPOINT [ "/opt/asciidoctor/entrypoint.sh" ]

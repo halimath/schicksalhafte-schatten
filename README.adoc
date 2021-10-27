@@ -1,0 +1,52 @@
+= Schicksalhafte Schatten
+
+Ein https://faterpg.de/[Fate Core] basiertes Rollenspielsystem im https://www.shadowrun6.de/
+[Shadowrun-Universum].
+
+Dieses Repo enthält die Quellen für das Rollenspielsystem _Schicksalhafte Schatten_, eine Adaption
+des Shadowrun6 Universums mit den Regeln von Fate Core. Du solltes vertraut mit Fate Core sein, um
+diese Regeln sinnvoll einsetzen zu können. Wissen über Shadowrun ist an vielen Stellen ebenfalls 
+notwendig. Am besten hast Du das Fate Core Grundregelbuch zur Hand, das es kostenlos als 
+https://faterpg.de/download/offiziellesmaterial/fate_core,_turbo-fate,_fate_accelerated/Fate-Core_Downloadversion.pdf[PDF] gibt sowie das Buch
+https://www.shadowrun6.de/index.php/produkte-2/regelwerke/17-sr6-grundregelwerk.html[Shadowrun 6 Grundregeln].
+
+== Benutzung der Regeln
+Wenn Du _Schicksalhafte Schatten_ einfach nur spielen möchtest, schau am besten in die
+https://github.com/halimath/schicksalhafte-schatten/releases[Releases] - dort findest Du die Regeln als
+PDF und HTML.
+
+== Mitarbeit an den Regeln
+
+Wenn Du die Regeln anpassen oder ergänzen möchtest, findest Du in diesem Repo alle notwendigen Quellen.
+
+Die Regeln selber werden mit https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc] erstellt. 
+Aus diesem Format können verschiedene andere Formate generiert werden - wir benutzen PDF und HTML.
+
+Die Generierung erfolgt mit Hilfe eines Containers (wir benutzen standardmäßig `podman` aber es
+funktioniert genauso gut mit `docker`). Damit Du die Regeln lokal generieren kannst, brauchst Du
+eine installiere _container runtime_ (also bspw. `podman` unter Linux oder `Docker Desktop` unter
+Linux, Windows oder MacOS X). Außerdem ist GNU Make sinnvoll, da wir damit die Erstellung automatisiert
+haben.
+
+Um alle Regeln zu erzeugen, kannst Du einfach 
+
+```
+$ make
+```
+
+aufrufen. Wenn Du `docker` benutzen willst musst Du
+
+```
+$ make podman=docker
+```
+
+verwenden. Anschließend findest Du ein `out` Verzeichnis mit PDF und HTML. 
+
+Für das Bearbeiten der AsciiDoc-Quellen empfehlen wir einen Editor mit Vorschau und Syntax-Highlighting.
+VSCode mit der AsciiDoc-Extension sind eine sehr gute Wahl.
+
+== Lizenz
+
+Die Regeln von _Schicksalhafte Schatten_ werden unter der 
+http://www.opengamingfoundation.org/ogl.html[Open Gaming License (OGL) Version 1.0a] veröffentlicht. 
+Diese Arbeit basiert auf den Regeln von Fate Core, die ebenfalls unter der OGL veröffentlicht werden.
