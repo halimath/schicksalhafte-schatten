@@ -60,9 +60,16 @@ heading:
 
 title-page:
   title:
+    font-size: 20
+    font-style: bold
     font-color: #A93970
-  logo:
-    image:
+  subtitle:
+    font-color: #A93970
+    font-style: normal
+  authors:
+    content:
+      name_only: "{author}"
+      # with_email: "{author}"
 
 link:
   font-color: #A93970
@@ -84,3 +91,15 @@ footer:
       content: ""
     center:
       content: $footer-recto-center-content
+
+header:
+  height: $base-line-height-length * 2.5
+  font-size: 8
+  line-height: 1
+  recto:
+    left:
+      content: "{section-or-chapter-title}"
+    right:
+      content: "{document-title} v{revnumber}"
+    center:
+      content: ""
