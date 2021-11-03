@@ -45,6 +45,8 @@ verwenden. Anschließend findest Du ein `out` Verzeichnis mit PDF und HTML.
 Für das Bearbeiten der AsciiDoc-Quellen empfehlen wir einen Editor mit Vorschau und Syntax-Highlighting.
 VSCode mit der AsciiDoc-Extension sind eine sehr gute Wahl.
 
+include::./src/changelog.adoc[leveloffset=1]
+
 == Lizenz
 
 Die Regeln von _Schicksalhafte Schatten_ werden unter der 
