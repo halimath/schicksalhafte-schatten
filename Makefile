@@ -17,10 +17,10 @@ IMAGE_TAG = latest
 
 all: container-image $(OUT)/SchicksalhafteSchatten.pdf $(OUT)/SchicksalhafteSchatten.html $(OUT)/NSC.pdf $(OUT)/NSC.html
 
-$(OUT)/%.pdf: src/%.adoc $(OUT)
+$(OUT)/%.pdf: src/%.adoc $(OUT) styles/pdf.yml
 	$(PODMAN) run --rm -it -v "$(PWD)/src:/src:Z" -v "$(PWD)/out:/out:Z" $(IMAGE_NAME):$(IMAGE_TAG) pdf -o $@ $<
 
-$(OUT)/%.html: src/%.adoc $(OUT)
+$(OUT)/%.html: src/%.adoc $(OUT) styles/html.css
 	$(PODMAN) run --rm -it -v "$(PWD)/src:/src:Z" -v "$(PWD)/out:/out:Z" $(IMAGE_NAME):$(IMAGE_TAG) html -o $@ $<
 
 container-image:
