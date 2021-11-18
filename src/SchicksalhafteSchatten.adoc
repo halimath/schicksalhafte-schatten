@@ -365,7 +365,7 @@ andere Hindernisse überwinden, so wie Du es mittels <<Athletik>> in der realen 
 
 [.icon]#A# -
 
-[.icon]#V# Du nutzt Wille für die Verteidigung gegen Angriffe während Du astral projizierst.
+[.icon]#D# Du nutzt Wille für die Verteidigung gegen Angriffe während Du astral projizierst.
 
 ==== Wissen
 In Bezug auf die Aktionen wird Wissen wie in den Fate Core Grundregeln beschrieben eingesetzt.
