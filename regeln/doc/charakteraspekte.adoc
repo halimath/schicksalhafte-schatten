@@ -1,0 +1,76 @@
+== Konzept, Dilemma und Charakteraspekte
+
+Bei der Erschaffung eines Charakters für _Fate Core_ legt der Spieler zunächst *Konzept* und *Dilemma* des
+Charakters fest. Dies gilt auch für _Schicksalhafte Schatten_. Danach kannst Du noch drei weitere Aspekte
+wählen.
+
+=== Konzept
+
+Das *Konzept* beschreibt den zentralen Grundgedanken des Charakters als kompakte Phrase. Für _Schicksalhafte
+Schatten_ sind hier zwei Bestandteile wesentlich: der Metatypus des Charakters sowie "erwachte" Fähigkeiten 
+wie Magie oder Resonanz. Diese müssen sich im Konzept wiederfinden wenn der Charakter über entsprechende
+Eigenschaften verfügen soll.
+
+==== Metatypen
+
+Shadowrun kennt _Metatypen_ für die Runner. Dazu zählen Menschen, Elfen, Zwerge, Orks und Trolle. Die
+Metatypen werden in _Schicksalhafte Schatten_ durch das *Konzept* des Charakters repräsentiert und können im
+Verlauf des Spiels _nicht mehr geändert_ werden.
+
+Du kannst den Metatypus-Teil des Konzepts als Aspekt nutzen, wenn Dein Metatypus Dir entsprechende 
+Vorteile bietet (bspw. Dunkelsicht für Elfen als +2 Bonus auf Wahrnehmung). Dies gilt als Einsatz des 
+Aspekts und kostet wie üblich einen Fate Punkt.
+
+Die besondere Trollhaut, die Dir eine zusätzliche Panzerung bringt, wird als Stunt umgesetzt, der gegen Dein 
+Limit von Stunts zählt. Dieser Stunt erlaubt Dir, die Rüstungsstufe um 1 zu erhöhen (siehe 
+<<Waffen und Rüstungen>>).
+
+==== Nutzung von Magie
+
+In der Welt von Shadowrun existieren verschiedene Formen von Magie verwendenden Archetypen: Magier, 
+Hexenmeister, Schamane oder Adpeten. Für _Schicksalhafte Schatten_ wird die Art der Magie regeltechnisch
+identisch behandelt - in Form der Fertigkeit _Magie_. Die Art, wie die Magie gewirkt wird, sollte sich
+aber in der Art der Erzählung unterscheiden.
+
+Damit ein Charakter Zugriff auf die Fertigkeit _Magie_ hat, muss der entsprechende Archetypus im 
+_Konzept_ erwähnt werden.
+
+==== Technomancer
+
+In der Welt von Shadowrun existieren _Techomancer_, die durch Nutzung der sogenannten Resonanz die 
+Matrix ohne Verwendung von Cyberdecks oder anderem technischen Gerät nutzen können. Damit ein Charakter
+diese Fähigkeiten nutzen kann, muss er im Konzept den Archetypus _Technomancer_ erwähnen. Die genauen
+Regeln sind unter <<Matrix>> beschrieben.
+
+==== Beispiele
+
+====
+* zwergischer Ex-Kon Rigger
+* aggressiver elfischer Kampfmagier
+* technologiefeindlicher Ork-Sumpf-Schamane
+* neurotischer Troll-Technomancer
+====
+
+=== Dilemma
+
+Hier gilt alles, was auch in den Fate Core Grundregeln zum Dilemma gesagt wird. Im Shadowrun-Universum gibt
+es im Besonderen ein Potential für ein Dilemma, das andere Personen oder Organisationen betrifft. Ein Runner,
+der zuvor als Konzern-Decker gearbeitet hat, könnte eine besondere "Hass-Liebe" zu seinem ehemaligen 
+Arbeitgeber pflegen. Ein Magier, der früh im Rahmen einer "Talentförderung" von einem Konzern bedrängt wurde,
+hat ebenso ein besonders ablehnendes Verhältnis zu Konzernen im Allgemeinen. Der Straßensamurai könnte in 
+seiner Jungend viel mit einer Gang im Streit gelegen haben oder Unterdrückung durch eine kriminelle 
+Organisation erfahren haben. 
+
+Diese Arten von Dilemmas bieten viel Potential für spannende Komplikationen, Konflikte oder auch ein kleines
+"Intermezzo". Natürlich kannst Du auch eine andere Art von Dilemma wählen. Eine Drogensucht oder auch eine
+Abhängigkeit von heißem Sim bieten ebenfalls das Potential für Komplikationen in der Geschichte und damit: 
+Drama!
+
+Beispiele für Dilemma:
+
+====
+* Die Razor-Gang jagd mich
+* Don Frederic hat ein Kopfgeld auf meinen Kopf ausgesetzt
+====
+
+=== Aspekte

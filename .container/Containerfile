@@ -1,9 +1,9 @@
-FROM registry.access.redhat.com/ubi8/ubi-init
+FROM alpine:latest
 
 ARG roboto_font_download_url=https://github.com/googlefonts/roboto/releases/download/v2.138/roboto-unhinted.zip
 ARG fate_core_font_download_url=https://faterpg.de/download/sonstiges/Fate-Core-Font.zip
 
-RUN dnf install -y ruby ruby-devel wget unzip
+RUN apk add ruby wget unzip make
 
 RUN gem install asciidoctor
 RUN gem install asciidoctor-pdf
@@ -16,12 +16,11 @@ RUN mkdir -p /usr/share/fonts/fate-core
 RUN wget -O /tmp/fate-core.zip ${fate_core_font_download_url}}
 RUN unzip -d /usr/share/fonts/fate-core /tmp/fate-core.zip
 
-RUN mkdir -p /opt/asciidoctor/styles
-COPY styles/* /opt/asciidoctor/styles
-COPY .container/entrypoint.sh /opt/asciidoctor
-RUN chmod u+x /opt/asciidoctor/entrypoint.sh
+VOLUME [ "/out" ]
 
-VOLUME /src
-VOLUME /out
+WORKDIR /src
 
-ENTRYPOINT [ "/opt/asciidoctor/entrypoint.sh" ]
+COPY regeln ./regeln/
+COPY Makefile .
+
+ENTRYPOINT [ "make", "OUT=/out", "all" ]

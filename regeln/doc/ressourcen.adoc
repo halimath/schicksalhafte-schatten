@@ -1,0 +1,20 @@
+== Ressourcen
+
+Ressourcen spielen eine wichtige Rolle in der Welt von Shadowrun. Damit die Spieler nicht jeden 
+einzelnen Nuyen ihrer Charaktere buchhaltärisch erfassen müssen, verwendet _Schicksalhafte Schatten_ ein
+einfacheres System basierend auf der Fertigkeit _Ressourcen_ aus den Grundregeln von Fate Core.
+
+Abweichen zu den Grundregeln kann diese Fertigkeit jedoch nicht erworben werden und wird auch nicht
+in der Fertigkeitenpyramide oder zur Säulenbildung mit herangezogen. Diese Fertigkeit wird durch die 
+Spielleitung gesteuert und zu _Meilensteinen_ modifiziert. Dabei sind auch größere Sprünge möglich.
+
+Die Spieler können diese Fertigkeit wie in den Grundregeln beschrieben einsetzen um kleinere 
+Ausrüstungen zu kaufen, Connections zu bestechen usw.
+
+====
+Die Charaktere haben einen Run erfolgreich abgeschlossen - und wurden dafür sogar bezahlt. Die Spielleitung 
+erhöht die Fertigkeit Ressourcen daher auf "Gut (+3)" um den finanziellen Wohlstand
+auszudrücken. Einer der Charaktere kauf nun ein neues, kostspieliges Fahrzeug. Die Spielleitung 
+reduziert die Fertigkeit für ihn auf "Durchschnittlich (+1)", da er einen Großteil des verdienten Geldes 
+wieder ausgegeben hat.
+====

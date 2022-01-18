@@ -1,0 +1,79 @@
+== Bio- und Cyberware
+
+Bio- und Cyberware verbessern oder erweitern die metamenschlichen Fähigkeiten, so dass Nutzer dieser
+"Einbaugeräte" vielen Normalsterblichen überlegen sind. Der Preis dafür ist, dass die Geräte einen 
+gewissen Teil der Metamenschlichkeit rauben.
+
+[sidebar]
+****
+Bio- und Cyberware werden über _Stunts_ aus den Fate Core Grundregeln realisiert. Jede Bio- bzw.
+Cyberwaremodifikation muss als _Stunt_ erworben werden.
+****
+
+=== Adrenalinpumpe
+Ein Adrenalinschub steigert kurzfristig deine körperliche Leistungsfähigkeit. Du kannst die Adrenalinpumpe 
+jederzweit auslösen - in Konflikten aber nur, wenn Du an der Reihe bist. Du erhälst den Aspekt 
+[.aspekt]#aufgeputscht# mit zwei freien Einsätzen (so als hättest Du einen Vorteil mit einem vollen Erfolg 
+erziehlt). Nach dem Ende des Konflikts oder er Anstrengung (bspw. einem Wettstreit oder einer Herausforderung) 
+verlierst Du den Aspekt [.aspekt]#aufgeputscht# (noch offene freie Einsätze verfallen) und Du bekommst den 
+Aspekt [.aspekt]#erschöpft#, den die SL gegen Dich einsetzen darf. Du kannst den Aspekt durch ausruhen 
+ablegen. 
+
+=== Dermalpanzerung
+Unter der Haut implantierte Platten bieten Dir zusätzlichen Schutz gegen körperlichen Schaden. Die 
+Dermalpanzerung gilt als Rüstung der Stufe 1, die kumulativ zu darüber getragenen Rüstungen ist.
+
+Du bekommst den Aspekt [.aspekt]#beinahe künstliche Haut#, die die SL gegen Dich einsetzen kann.
+
+=== Cyberarm
+Du hast einen künstlichen Arm, der über eine gesteigerte Kraft verfügt. Für alle Proben, die Du mit diesem
+Arm durchführst, bekommst Du +2 auf den Fertigkeitswurf.
+
+Der Arm stellt den Aspekt [.aspekt]#Cyberarm# dar, der gegen Dich eingesetzt werden kann.
+
+=== Cyberaugen
+Du hast künstliche Augen, die über verbesserte optische Fähigkeiten verfügen, darunter Restlichtverstärkung,
+Infrarotsicht, optischer Zoom und eine Blitzkompensation. Du kannst diese Fähigkeiten mental steuern. Die 
+Augen sind als solche erkennbar, wenn jemand Deine Augen direkt sehen kann.
+
+Bei Proben auf _Wahrnehmung_ oder _Nachforschungen_, die optischer Natur sind, kannst Du +2 auf Deinen Wurf
+addieren.
+
+=== Kommlink
+Du hast ein implantierten Kommlink, der alle Funktionen des "klassischen" Kommlinks entspricht und darüber
+hinaus mit eine Sim-Modul ausgestattet ist.
+
+=== Reflexbooster I
+Bei der Bestimmung Deiner Initiative in körperlichen Konflikten bekommst Du +2 auf die _Wahrnehmung_. 
+
+=== Reflexbooster II
+NOTE: Du musst <<Reflexbooster I>> haben um diese Cyberware verwenden zu können.
+
+Nachdem ein Austausch in einem Konflikt abgehandelt wurde, bekommen alle Charaktere mit einem Reflexbooster II
+eine weitere Handlungsmöglichkeit, in der sie eine weitere Handlung durchführen können. Die Reihenfolge dieser
+Handlungen nutzt die selbe Initiativreihenfolge. Anschließend folgt der nächste Austausch.
+
+Das Aktivieren des Reflexboosters erfordert eine Handlung innerhalb eines Austausch (Du musst dafür aber nicht
+würfeln). Das gleiche gilt für das Deaktivieren.
+
+=== Smartlinkverbindung I
+Über eine implantierte Kontaktstelle in der Hand kannst Du Daten mit einer Smartgun austauschen. Du musst über
+<<Cyberaugen>> verfügen, die Dir dann eine Zielmarkierung anzeigen. Du bekommst einen Bonus von +2 auf alle
+Versuche mit <<Schießen>> einen Vorteil zu erschaffen (also Zielen, Sperrfeuer, usw.). 
+
+=== Smartlinkverbindung II
+NOTE: Du musst <<Smartlinkverbindung I>> haben, um diese Cyberware verwenden zu können. 
+
+Du bekommst zusätzlich einen Bonus von +2 auf alle Proben, wenn Du mit _Schießen_ angreifst.
+
+=== Talentbuchse
+Du hast eine implantierte Buchse, in die Du _Talentsofts_ einsetzen kannst. Über die Talensofts kannst Du die
+darauf gespeicherten Fertigkeiten so nutzen, als hättest Du die Fertigkeit gewählt. Die Fertigkeitsstufe ist
+in der Regel _ordentlich (+2)_, aber es gibt auch Talentsofts mit anderen Fertigkeitsstufen.
+
+=== Talentleitung
+NOTE: Du musst eine <<Talentbuchse>> haben, damit Du die Talentleitung erwerben kannst.
+
+Mit der Talentleitung kannst Du auch Aktionsfertigkeiten über _Talentsofts_ nutzen. Dies gilt _nicht_ für
+Fertigkeiten, die Du sonst nur über Extras erwerben kannst, wie <<Magie>>, <<Hacken>>, <<Matrixkampf>>,
+<<Ressourcen>>.

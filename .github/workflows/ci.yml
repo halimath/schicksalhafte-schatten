@@ -1,0 +1,47 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  regeln:
+    name: Generiert die HTML-Version der Regeln mit Asciidoc
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+          bundler-cache: true      
+ 
+      - uses: reitzig/actions-asciidoctor@v2.0.0
+        with:
+          version: 2.0.15
+
+      - run: make out/SchicksalhafteSchatten.html
+        working-directory: ./regeln
+  
+  charakterbogen:
+    name: Generiert das PDF des Charakterbogens
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: npm
+          cache-dependency-path: charakterbogen/package-lock.json
+
+      - name: Abhängigkeiten installieren
+        run: npm i
+        working-directory: charakterbogen
+
+      - name: Charakterbogen erstellen
+        run: npm run build
+        working-directory: charakterbogen
+

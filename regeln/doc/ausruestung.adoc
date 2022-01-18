@@ -1,0 +1,23 @@
+== Weitere Ausrüstung
+
+Für viele Runner gilt: "Du bist was Du hast!". Fate Core verwendet hier einen anderen
+Ansatz: Es wird davon ausgegangen, dass die Charaktere die notwendige Ausrüstung haben,
+die sie für ihre Fertigkeiten benötigen. Diese Regel soll uneingeschränkt gelten. Es gibt
+in _Schicksalhafte Schatten_ keine Einwegspritzen, kein Brecheisen, keine Dietriche oder 
+ähnliches. Statt dessen wird davon ausgegangen, dass die Charaktere dies einfach haben.
+
+SL: Du kannst einen Vorteil erschaffen lassen, der die Ausrüstung repräsentiert.
+
+Dennoch gibt es einige besondere Ausrüstungen, die gesondert aufgeführt werden.
+
+=== DocWagon-Vertrag
+DocWagon ist der größte weltweit operierende Dienstleister für die Notfallversorgung.
+Mit einem DocWagon-Vertrag kannst Du Dir diese Dienst sichern, wenn Du sie brauchst.
+Es gibt den Vertrag in verschiedenen Stufen: Standard, Gold, Platin, Superplatin. Je
+Stufe werden unterschiedliche Kosten fällig.
+
+In _Schicksalhafte Schatten_ haben alle Charaktere einen DocWagon-Vertrag - außer sie wollen dies explizit 
+_nicht_. Die Verträge haben _keine_ Vertragsstufen - statt dessen werden Kosten bei der Inanspruchnahme 
+abhängig von den Leistungen fällig. Bei der Nutzung des Vertrags musst Du mittels _Ressourcen_ ein Hindernis 
+überwinden. Der Schwierigkeitsgrad richtet sich nach den gewünschten Leistungen und sollte zwischen +1 und +5 
+liegen.

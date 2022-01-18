@@ -1,0 +1,77 @@
+@import "../node_modules/reset-css/sass/_reset"
+
+$color-dark: #000
+$color-half-dark: #888
+$color-light: #fff
+
+$distance: 0.1rem
+$field-height: 1.6rem
+$border-width: 0.1rem
+
+body
+    font-family: "Ubuntu"
+    line-height: 0.7rem
+    color: $color-dark
+    background-color: $color-light
+    
+*
+    box-sizing: border-box
+
+@import "./grid"
+
+
+footer
+    position: fixed
+    bottom: 2mm
+    width: 100%
+    text-align: center
+    font-size: 0.4rem    
+
+.banner 
+    margin: $distance
+    padding: $distance    
+    flex-grow: 0
+
+    display: flex
+    flex-direction: column
+    align-content: center
+    justify-content: center
+    
+    .title
+        font-size: 2rem
+        line-height: 2.2rem
+        font-weight: bold
+        text-align: center
+    
+    .subtitle
+        font-size: 1rem
+        text-align: center
+
+@media screen
+    html
+        font-size: 20px
+    
+    body
+        max-width: 1280px
+        margin: auto
+
+@media print
+    @page
+        size: A4
+    
+    html
+        font-size: 16px
+
+    body
+        width: 210mm
+        height: 297mm
+        padding: 4mm
+
+    .page:not(:first-of-type)
+        page-break-before: always
+
+    .field
+        .tag
+            &.above
+                &.dark
+                    width: 99%

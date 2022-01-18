@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <title>Schwert &amp; Schicksal Charakterbogen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/charakterbogen.css">
+</head>
+
+<body class="">
+    <div class="page">
+        
+        <div class="cols stretch">
+            <div class="rows grow-5">
+                <div class="field line vspace">
+                    <div class="tag above">Name</div>
+                </div>                                        
+
+                <div class="field vspace very-high line">
+                    <div class="tag above">Beschreibung</div>
+                </div>                    
+            </div>
+                
+            <div class="field ultra-high vspace">
+                <div class="tag above center">Erholungsstufe</div>
+            </div>
+
+            <div class="banner grow-2">
+                <div class="title">Schicksalhafte Schatten</div>
+                <div class="subtitle">Charakterbogen</div>
+            </div>
+        </div>
+
+        <div class="cols vspace-large cols-top">
+            <div class="rows grow-5">
+                <div class="label dark">Aspekte</div>
+                <div class="field line vspace">
+                    <div class="tag above">Konzept</div>
+                </div>
+                <div class="field line vspace">
+                    <div class="tag above">Dilemma</div>
+                </div>
+                <div class="field line vspace"></div>
+                <div class="field line vspace"></div>
+                <div class="field line vspace"></div>
+                <div class="field line semi vspace"></div>
+
+                <div class="label dark vspace-large">Extras</div>
+                <div class="field ultra-high"></div>
+
+                <div class="label dark vspace-large">Waffen, Rüstungen &amp; sonstige Ausrüstung</div>
+                <div class="field ultra-ultra-high"></div>
+            </div>
+
+            <div class="rows grow-2" id="fertigkeiten">
+                <div class="label dark">Fertigkeiten</div>
+            </div>
+        </div>
+
+        <div class="label dark vspace-large">Stunts</div>
+        <div class="field ultra-ultra-high"></div>
+
+        <div class="label dark vspace-large">Stress &amp; Konsequenzen</div>
+        <div class="cols stretch vspace">
+            <div class="grow-2">
+                <div class="row">
+                    <div class="label semi-dark">Körperlicher Stress (Kraft)</div>
+                </div>
+                <div class="row vspace stressmonitor">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box bedingt"></div>
+                    <div class="box bedingt"></div>
+                    <div class="box bedingt"></div>
+                </div>
+
+                <div class="row vspace">
+                    <div class="label semi-dark">Geistiger Stress (Wille)</div>
+                </div>
+                <div class="row vspace stressmonitor">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box bedingt"></div>
+                    <div class="box bedingt"></div>
+                    <div class="box bedingt"></div>
+                </div>
+            </div>
+
+            <div class="grow-5 rows stretch">
+                <div class="label semi-dark">Konsequenzen</div>
+                <div class="field line">
+                    <div class="tag">leicht (2)</div>
+                </div>
+                <div class="field line semi">
+                    <div class="tag">leicht (2)</div>
+                </div>
+                <div class="field line">
+                    <div class="tag">mittel (4)</div>
+                </div>
+                <div class="field line">
+                    <div class="tag">schwer (6)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <template id="fertigkeit">
+        <div class="row fertigkeit">
+            <div class="label grow-2">Athletik</div>
+            <div class="field line"></div>
+        </div>
+    </template>
+
+    <script>
+        fertigkeiten = [
+            "Athletik",
+            "Charisma",
+            "Diebeskunst",
+            "Empathie",
+            "Fahren",
+            "Handwerk",
+            "Hacken *",
+            "Heimlichkeit",
+            "Kämpfen",
+            "Kontakte",
+            "Kraft",
+            "Magie *",
+            "Matrixkampf *",
+            "Nachforschungen",
+            "Provozieren",
+            "Ressourcen *",
+            "Schießen",
+            "Täuschung",
+            "Wahrnehmung",
+            "Wille",
+            "Wissen",
+        ];
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const tplElement = document.querySelector("template#fertigkeit");
+            const skillsElement = document.querySelector("#fertigkeiten");
+
+            fertigkeiten.forEach((fertigkeit, idx) => {
+                const row = tplElement.content.cloneNode(true);
+                const se = row.querySelector(".label")
+                se.innerText = fertigkeit;
+                skillsElement.appendChild(row);
+            });
+        });
+
+    </script>
+</body>
+
+</html>

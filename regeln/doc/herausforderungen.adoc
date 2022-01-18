@@ -1,0 +1,35 @@
+== Herausforderungen, Wettstreite und Konflikte
+
+_Schicksalhafte Schatten_ nutzt die Regeln für Herausforderungen, Wettstreite, Konflikte sowie für Schaden aus
+den _Fate Core_ Grundregeln mit den folgenden Ausnahmen.
+
+=== Initiative
+
+Die Initiative in einem Konflikt wird nach der in 
+https://fate-srd.com/fate-condensed/challenges-conflicts-and-contests#turn-order[Fate Condensed] beschriebenen
+Methode abgehandelt, die auch als "popcorn", "handoff" oder "Balsera Style" bekannt ist.
+
+In einem Konflikt wird der zuerst handelnde Charakter aus der Erzählung bestimmt. SL: Du hast das letzte Wort.
+Jeder Charakter benennt nach seiner Handlung den nächsten Charakter. Dabei müssen alle Charakter pro Austausch
+genau einmal an die Reihe kommen. Der letzte Charakter eines Austauschs benennt den Startcharakter für den
+nächsten Austausch. Dies gilt für SC genauso wie für NSC.
+
+=== Stress
+
+Auch beim Stress kommen die vereinfachten Stress-Regeln aus 
+https://fate-srd.com/fate-condensed/challenges-conflicts-and-contests#stress[Fate Condensed] zum Einsatz.
+
+Jeder Charakter hat zwei Stressmonitore: körperlich und geistig. Jeder Monitor hat mindestens drei 
+Stresskästchen von denen jedes genau eine Erfolgsstufe einer Schadensquelle kompensiert. Zusätzlich erhalten
+Charaktere weitere Kästchen entsprechend ihrer Ränge in den folgenden Fertigkeiten:
+
+*  _Stärke_ gewährt weitere Kästchen auf dem körperlichen Stressmonitor
+* _Wille_ gewährt weitere Kästchen auf dem geistigen Stressmonitor
+
+Hat ein Charakter in einer der beiden Fertigkeiten den Rang _ordentlich (+2)_ oder _durchschnittlich (+1)_
+erhält er ein zusätzliches Kästchen für den entsprechenden Monitor. Bei einem Fertigkeitsrang von
+_gut (+3)_ oder _großartig (+4)_ erhält der Charakter insgesamt drei weitere Kästchen (eines für die Ränge
++1 / +2 und zwei weitere für +3 / +4). Bei einem Fertigkeitsrang von _hervorragend (+5)_ oder besser erhält
+der Charakter zusätzlich noch eine weitere _leichte Konsequenz_, die jedoch nur für Schaden verwendet werden
+darf, der dem entsprechenden Monitor zugeordnet ist, also nur geistigen Schaden bei _Wille +5_ bzw. 
+körperlichem Schaden bei _Stärke +5_.

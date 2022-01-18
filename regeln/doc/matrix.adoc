@@ -1,0 +1,54 @@
+== Matrix
+Die Matrix ist das allumgebene Computernetzwerk in der Welt von Shadowrun und steuert so gut wie alle 
+technischen Geräte. Charaktere können sich in die Matrix einloggen, dort nach Daten suchen, in andere 
+Systeme einbrechen und in der Matrix kämpfen.
+
+Es gibt verschiedene Arten die Matrix zu benutzen. Normale Nutzer greifen mittels ihres ComLink auf die
+Matrix zu. Nutze die Fertigkeit _Nachforschungen_ um nach Informationen zu suchen.
+
+Wer in fremde Systeme einbrechen will, muss etwas weiter gehen. Dafür gibt es zwei Arten: Charaktere können
+sich mit einer Datenbuchse (Cyberware) und einem Cyberdeck in die Matrix einloggen oder sie nutzen
+_Resonanz_ - eine besondere erwachte Fähigkeit, die die Nutzung der Matrix ohne technisches Equipment
+ermöglicht.
+
+[sidebar]
+****
+Sowohl Decker als auch Technomancer nutzen regeltechnisch die Fertigkeiten _Hacken_ und _Matrixkampf_. Dennoch
+sollten sich die erzählerischen Details bei der Nutzung stark unterscheiden.
+****
+
+.Extra: Decker
+****
+*Voraussetzung*: Dein Charakterkonzept benennt Dich als "Decker".
+
+*Preis*: Du musst mind. 2 Fertigkeitsstufen in _Hacken_ und mind. 2 Fertigkeitsstufen in _Matrixkampf_
+investieren. Reduziere Deine Erholungsstufe um 1.
+
+Du erhältst die Cyberware _Datenbuchse_, über die Du Dich mit Deinem Cyberdeck verbinden kannst und die
+Matrix nutzen kannst.
+
+Du nutzt die Fertigkeit _Hacken_ anstelle von _Wahrnehmung_ um Dinge in der Matrix zu sehen, für die 
+Initiative im Matrixkampf, für Proben um Daten zu erlangen und anstelle von _Heimlichkeit_. Du nutzt die 
+Fertigkeit _Matrixkampf_ für Angriff und Verteidigung in der Matrix.
+
+Stress, den Du im Matrixkampf erleidest, wird gegen Deinen körperlichen Stress gerechnet.
+****
+
+.Extra: Technomancer
+****
+*Voraussetzung*: Dein Charakterkonzept benennt Duch als Technomancer.
+
+*Preis*: Du musst mind. 2 Fertigkeitsstufen in _Hacken_ und mind. 2 Fertigkeitsstufen in _Matrixkampf_
+investieren. Reduziere Deine Erholungsstufe um 1.
+
+Du kannst die Matrix durch die besondere Fähigkeit der Resonanz nutzen.
+
+Du nutzt die Fertigkeit _Hacken_ anstelle von _Wahrnehmung_ um Dinge in der Matrix zu sehen, für die 
+Initiative im Matrixkampf, für Proben um Daten zu erlangen und anstelle von _Heimlichkeit_. Du nutzt die 
+Fertigkeit _Matrixkampf_ für Angriff und Verteidigung in der Matrix.
+
+Stress, den Du im Matrixkampf erleidest, wird gegen Deinen geistigen Stress gerechnet.
+****
+
+Computerprogramme, die Du einsetzen möchtest, werden über _Vorteile_ ausgedrückt. Computerprogramme, die ein
+Host gegen Dich einsetzt können entweder über passiven Widerstand oder als Charakter eingesetzt werden.
