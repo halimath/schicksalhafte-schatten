@@ -1,7 +1,7 @@
-VERSION = 0.3.0-rc1
+VERSION = 0.3.0
 
-# NPM = npm
-# NPM_FLAGS = 
+NPM = npm
+NPM_FLAGS = 
 
 CP = cp
 CP_FLAGS =
@@ -18,7 +18,7 @@ OUT := out
 
 .PHONY: clean all mrproper
 
-all: $(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).pdf $(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).html #$(OUT)/SchicksalhafteSchatten-Charakterbogen-$(VERSION).pdf
+all: $(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).pdf $(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).html $(OUT)/SchicksalhafteSchatten-Charakterbogen-$(VERSION).pdf
 
 $(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).pdf: $(OUT)
 	$(MAKE) -C regeln VERSION=$(VERSION) OUT=out out/SchicksalhafteSchatten.pdf
@@ -28,10 +28,10 @@ $(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).html: $(OUT)
 	$(MAKE) -C regeln VERSION=$(VERSION) OUT=out out/SchicksalhafteSchatten.html
 	$(CP) $(CP_FLAGS) regeln/out/SchicksalhafteSchatten.html $@
 
-# $(OUT)/SchicksalhafteSchatten-Charakterbogen-$(VERSION).pdf: $(OUT)
-# 	$(NPM) $(NPM_FLAGS) --prefix charakterbogen i
-# 	$(NPM) $(NPM_FLAGS) --prefix charakterbogen run build
-# 	cp charakterbogen/out/charakterbogen.pdf $@
+$(OUT)/SchicksalhafteSchatten-Charakterbogen-$(VERSION).pdf: $(OUT)
+	$(NPM) $(NPM_FLAGS) --prefix charakterbogen i
+	$(NPM) $(NPM_FLAGS) --prefix charakterbogen run build
+	cp charakterbogen/out/charakterbogen.pdf $@
 
 $(OUT):
 	$(MKDIR) $(MKDIR_OPTS) $(OUT)
