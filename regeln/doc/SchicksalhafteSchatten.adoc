@@ -1,0 +1,62 @@
+= Schicksalhafte Schatten: Ein _Fate Core_ Rollenspiel im _Shadowrun_-Universum
+:author: Alexander Metzner <alexander.metzner@gmail.com>
+:revnumber: 0.2.0
+:revnumber-caption: Version
+:doctype: book
+:note-caption: Hinweis
+:caution-caption: Work in progress
+:toc:
+:toc-title: Inhaltsverzeichnis
+:toclevels: 4
+:example-caption: Beispiel
+:sectanchors:
+:sectnums:
+:chapter-signifier: Kapitel
+
+[preface]
+== Einleitung
+_Schicksalhafte Schatten_ ist eine Adaption des generischen Regelsystems von _Fate Core_ an die Welt von 
+https://www.shadowrun6.de/[_Shadowrun_ in der 6. Edition]. Diese Regeln basieren auf den Regeln aus dem 
+https://faterpg.de/download/offiziellesmaterial/fate_core,_turbo-fate,_fate_accelerated/Fate-Core_Downloadversion.pdf[Fate Core Grundregelwerk Version 2.0].
+
+Diese Adaption verfolgt das Ziel, ein möglichst einfaches System von Regeln zur Verfügung zu stellen,
+um spannende und unterhaltsame Geschichten in der Welt von Shadowrun gemeinsam zu erzählen, ohne dabei 
+auf unzählige Regeln, Bücher, Tabellen und weiteres angewiesen zu sein. Dabei werden die Aspekte, die eine
+zentrale Rolle im Fate Core System spielen intensiv genutzt. 
+
+Diese Regeln verzichten auf große Kataloge von Waffen, Rüstungen, Ausrüstung, Zauber, Programme und Fahrzeuge.
+Statt dessen werden Aspekte genutzt, um individuelle Ausprägungen zu repräsentieren. Dies soll den Spielfluss
+verbessern und den Fokus auf die Erzählung legen.
+
+CAUTION: Diese Regeln sind zur Zeit noch in der Entwicklung und werden in Teilen überarbeitet.
+
+include::./charakteraspekte.adoc[leveloffset=0]
+
+include::./fertigkeiten.adoc[leveloffset=0]
+
+include::./herausforderungen.adoc[leveloffset=0]
+
+include::./magie.adoc[leveloffset=0]
+
+include::./matrix.adoc[leveloffset=0]
+
+include::./rigger.adoc[leveloffset=0]
+
+include::./ressourcen.adoc[leveloffset=0]
+
+include::./waffen.adoc[leveloffset=0]
+
+include::./ausruestung.adoc[leveloffset=0]
+
+[appendix]
+include::./NSC.adoc[leveloffset=0]
+
+[appendix]
+== Lizenz
+
+Die Regeln von _Schicksalhafte Schatten_ werden unter der 
+http://www.opengamingfoundation.org/ogl.html[Open Gaming License (OGL) Version 1.0a] veröffentlicht. Diese
+Arbeit basiert auf den Regeln von Fate Core, die ebenfalls unter der OGL veröffentlicht werden.
+
+The Fate Core font is © Evil Hat Productions, LLC and is used with permission. The Four Actions icons were 
+designed by Jeremy Keller.

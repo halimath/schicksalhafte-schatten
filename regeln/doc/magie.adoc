@@ -1,0 +1,66 @@
+== Magie
+In der erwachten Welt von Shadowrun existieren Metamenschen und Critter, die Magie einsetzen können.
+Magie wird in _Schicksalhafte Schatten_ nach den Regeln für _Extras_ aus den Fate Core Grundregeln realisiert.
+
+.Extra: Magie
+****
+*Voraussetzung*: Dein <<Konzept>> muss erwähnen, welcher Form der Magie (Magier, Hexenmeister, Schamane,
+Adept) Du folgst.
+
+*Preis*: Du musst mindestens 3 Fertigkeitsstufen in _Magie_ haben. Reduziere Deine Erholungsstufe um 1.
+
+NOTE: Nur Charaktere mit diesem Extra dürfen Fertigkeitsstufen in _Magie_ besitzen und diese Fertigkeit 
+einsetzen.
+
+NOTE: Wenn Du Magie einsetzen möchtest _darfst_ Du keine <<Bio- und Cyberware>> 
+verwenden.
+
+Du kannst _Magie_ nach den unten beschriebenen Regeln einsetzen.
+****
+
+Magie und Bio- oder Cyberware vertragen sich nicht. Shadowrun verwendet die _Essenz_ um
+das zu repräsentieren. Das gibt Magieanwendern die Möglichkeit eine kleine Menge an
+Bio- oder Cyberware einzusetzen. _Schicksalhafte Schatten_ ist hier strikter: Erwachte Personen
+können keine Bio- oder Cyberware einsetzen. Wenn ein erwachter Charakter im Verlauf der
+Entwicklung Bio- oder Cyberware implantiert bekommt verliert er den Zugriff auf seine
+Magie-Fähigkeiten.
+
+=== Zauber sprechen
+Das Sprechen eines Zaubers erfordert eine Probe auf _Magie_. Je nach Situation kann dies ein _Hindernis
+überwinden_, einen _Vorteil erschaffen_ oder auch _Angreifen_ und _Verteidigen_ sein.
+
+==== Entzug
+Das Sprechen von Zaubern kostet viel Kraft, Anstrengung und Konzentration. Jeder Zauber verursacht 
+geistigen Stress. Der Stress wird wie ein Angriff der Magie gegen Dich gewertet. SL: Du legst die 
+Fertigkeitsstufe des Angriffs für den Zauber fest. Die Fertigkeitsstufe kann sich in Abhängigkeit des Zaubers 
+(Art des Effekts) und der äußeren Umstände ändern. Ein und der selbe Zauber können unterschiedliche starke 
+Angriffe hervorrufen. Du kannst _Wille_ einsetzen, um Dich gegen den Angriff zu verteidigen. 
+
+Der Stress wird unabhängig davon verursacht, ob der Zauber erfolgreich war oder nicht.
+
+==== Zauber aufrechterhalten
+Jeder aufrechterhaltene Zauber (bspw. eine magische Rüstung oder Barriere) funktioniert wie ein freie Einsatz
+für den "angreifenden Zauber" und erhöht den Entzug um +2. SL: Du muss diesen "freien Einsatz" berücksichtigen
+wenn Du für den Zauber angreifst.
+
+==== Stunts für Zauber
+Charaktere können Stunts erwerben, um bestimmte Zauber (bspw. _Feuerball_ oder _Heilung_) mit einem
+Bonus verwenden zu können. Diese können auch beinhalten, dass sie einen Bonus bei der Entzugsprobe bekommen.
+
+=== Astral Wahrnehmen
+Nutzer mit dem Extra _Magie_ können astral wahrnehmen. Dazu nutzen sie die Fertigkeit _Empathie_ um entweder
+ein Hindernis zu überwinden oder einen Vorteil zu erschaffen.
+
+=== Astrale Projektion
+Charaktere mit dem Extra _Magie_ können den Stunt _Astrale Projektion_ erwerben und sich dann astral 
+projizieren. Der physiche Körper wird dann bewusstlos und der Geist des Charakters befindet sich in der 
+Astralebene. 
+
+Die Astrale Projektion selber erfordert keinen Fertigkeitswurf. In der Astralebene werden alternative
+Fertigkeiten genutzt.
+
+Empathie:: wird anstelle von _Wahrnehmung_ sowohl für die Wahrnehmung als auch für die Initiative 
+verwendet.
+Wille:: wird anstelle von _Atheltik_ verwendet, wenn es um sportliche Fortbewegung geht. 
+Ebenfalls wird _Wille_ verwendet, um sich im Astralkampf gegen Angriffe zu verteidigen.
+Provozieren:: wird verwendet, um im Astralkampf einen Gegner anzugreifen.

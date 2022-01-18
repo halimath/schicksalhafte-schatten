@@ -1,0 +1,29 @@
+== Rigger und Fahrzeuge
+
+Rigger steuern Fahrzeuge über eine direkte Verbindung zwischen dem Fahrzeug und dem Gehirn. Dafür nutzen sie
+eine spezielle Datenbuchse.
+
+.Extra: Rigger
+****
+*Voraussetzung*: Dein Charakterkonzept benennt Dich als Rigger.
+
+*Preis*: Du musst mind. 3 Fertigkeitsstufen in _Fahren_ investieren. Reduziere Deine Erholungsstufe um 1.
+
+Du erhälst eine Riggerkontrolle (Cyberware), die auch als Datenbuchse fungiert. Darüber kannst Du geriggte
+Fahrzeuge mental steuern.
+
+Du kannst soviele Fahrzeuge und Drohnen parallel steuern, wie es Deiner Fertigkeitsstufe in _Fahren_ 
+entspricht.
+****
+
+[sidebar]
+****
+Fahrzeuge nutzen die _bronzene Fate Regel_ ("Alles kann als Charakter dargestellt werden.") und werden wie
+Charaktere behandelt. Das bedeutet:
+
+* Fahrzeuge haben Aspekte
+* Fahrzeuge haben Fertigkeiten
+* Fahrzeuge haben Stunts
+
+Fahrzeuge haben _keine_ Erholungsstufe; Fate Punkte muss der Fahrer einsetzen.
+****

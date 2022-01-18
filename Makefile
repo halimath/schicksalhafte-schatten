@@ -1,33 +1,43 @@
-VERSION := 0.1.0
+VERSION = 0.3.0-rc1
 
-OUT := out
+# NPM = npm
+# NPM_FLAGS = 
 
-RM = rm
-RM_OPTS = -rf
+CP = cp
+CP_FLAGS =
 
 MKDIR = mkdir
 MKDIR_OPTS = -p
 
-PODMAN = podman
+RM = rm
+RM_OPTS = -rf
 
-IMAGE_NAME = asciidoctor
-IMAGE_TAG = latest
+FIND = find
 
-.PHONY: clean container-image all
+OUT := out
 
-all: container-image $(OUT)/SchicksalhafteSchatten.pdf $(OUT)/SchicksalhafteSchatten.html $(OUT)/NSC.pdf $(OUT)/NSC.html
+.PHONY: clean all mrproper
 
-$(OUT)/%.pdf: src/%.adoc $(OUT) styles/pdf.yml
-	$(PODMAN) run --rm -it -v "$(PWD)/src:/src:Z" -v "$(PWD)/out:/out:Z" $(IMAGE_NAME):$(IMAGE_TAG) pdf -o $@ $<
+all: $(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).pdf $(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).html #$(OUT)/SchicksalhafteSchatten-Charakterbogen-$(VERSION).pdf
 
-$(OUT)/%.html: src/%.adoc $(OUT) styles/html.css
-	$(PODMAN) run --rm -it -v "$(PWD)/src:/src:Z" -v "$(PWD)/out:/out:Z" $(IMAGE_NAME):$(IMAGE_TAG) html -o $@ $<
+$(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).pdf: $(OUT)
+	$(MAKE) -C regeln VERSION=$(VERSION) OUT=out out/SchicksalhafteSchatten.pdf
+	$(CP) $(CP_FLAGS) regeln/out/SchicksalhafteSchatten.pdf $@
 
-container-image:
-	$(PODMAN) build -f .container/Containerfile -t $(IMAGE_NAME):$(IMAGE_TAG) .
+$(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).html: $(OUT)
+	$(MAKE) -C regeln VERSION=$(VERSION) OUT=out out/SchicksalhafteSchatten.html
+	$(CP) $(CP_FLAGS) regeln/out/SchicksalhafteSchatten.html $@
+
+# $(OUT)/SchicksalhafteSchatten-Charakterbogen-$(VERSION).pdf: $(OUT)
+# 	$(NPM) $(NPM_FLAGS) --prefix charakterbogen i
+# 	$(NPM) $(NPM_FLAGS) --prefix charakterbogen run build
+# 	cp charakterbogen/out/charakterbogen.pdf $@
 
 $(OUT):
 	$(MKDIR) $(MKDIR_OPTS) $(OUT)
 
 clean:
 	$(RM) $(RM_OPTS) $(OUT)
+
+mrproper:
+	$(FIND) . -name "$(OUT)" -type d | xargs rm -rf

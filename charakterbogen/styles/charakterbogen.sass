@@ -1,0 +1,22 @@
+@import "./framework/index"
+
+.stressmonitor
+    display: flex
+    justify-content: space-between
+
+    .box
+        flex-basis: 1
+        width: $field-height
+        height: $field-height
+        border: $border-width solid $color-dark
+        border-radius: 0.4rem
+        margin-right: 2* $distance
+
+        &.bedingt
+            border-color: $color-half-dark
+
+.fertigkeit
+    .label
+        align-items: start
+        justify-items: center
+                    

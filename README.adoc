@@ -45,7 +45,28 @@ verwenden. Anschließend findest Du ein `out` Verzeichnis mit PDF und HTML.
 Für das Bearbeiten der AsciiDoc-Quellen empfehlen wir einen Editor mit Vorschau und Syntax-Highlighting.
 VSCode mit der AsciiDoc-Extension sind eine sehr gute Wahl.
 
-include::./src/changelog.adoc[leveloffset=1]
+== Änderungsübersicht
+
+=== Version 0.2.0
+
+==== Inhaltliche Änderungen
+
+* Fertigkeiten
+** _Athletik_ kann zur Verteidigung gegen alle Angriffe genutzt werden
+** _Tech_ bekommt Unterkategorie
+** Fehlende Fertigkeiten in der Übersicht ergänzt
+* Kleinere Änderungen in den Rüstungsstufen
+* Zusätzliche _Cyberware_ Komponenten
+
+==== Sonstige Änderungen
+
+* Änderungsübersicht hinzugefügt
+* "Kapitel" anstelle von "Chapter"
+* Verbesserungen am Layout von PDF und HTML
+
+=== Version 0.1.0
+
+Initiale Version
 
 == Lizenz
 

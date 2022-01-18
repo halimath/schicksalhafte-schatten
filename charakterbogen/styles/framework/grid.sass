@@ -1,0 +1,167 @@
+.page
+    margin: $distance
+
+.border
+    border: $border-width solid $color-dark
+    border-radius: 3 * $border-width
+    
+.field 
+    @extend .border
+
+    position: relative
+    padding-top: 0.1rem
+
+    height: $field-height
+    
+    margin: $distance $distance 0 $distance
+
+    flex-grow: 1
+    flex-basis: 0
+
+    text-align: center                
+    color: $color-dark
+
+    line-height: 1
+
+    &.line
+        border-top-color: transparent
+        border-left: none
+        border-right: none
+
+        &.semi
+            border-top-color: transparent
+            border-bottom-color: $color-half-dark
+
+            .tag
+                color: $color-half-dark
+
+
+    &.no-decoration
+        @extend .line
+        border-bottom-color: transparent
+
+    &.semi 
+        border-color: $color-half-dark
+                        
+    .tag
+        font-size: 0.45rem
+        height: 0.8rem
+        text-align: left
+    
+        &.above                     
+            position: absolute
+            top: -0.85rem
+            width: 100%
+
+            display: flex
+            align-items: center
+            justify-content: start
+
+            &.center
+                justify-content: center
+            
+            &.dark
+                @extend .border
+                font-size: 0.5rem
+                border-bottom-left-radius: 0
+                border-bottom-right-radius: 0
+                background-color: $color-dark
+                color: $color-light
+                    
+
+.label 
+    @extend .field
+    border: none
+
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center            
+
+    padding: $distance
+
+    font-size: 10pt
+    min-height: 1.5rem
+    background-color: $color-light
+    color: $color-dark
+
+    &.dark
+        background-color: $color-dark
+        color: $color-light
+
+    &.semi-dark
+        background-color: $color-half-dark
+        color: $color-light
+
+    small
+        font-size: 0.4rem
+
+.spacer
+    flex-grow: 1
+    
+.row 
+    display: flex
+    align-content: center
+    
+    &.cols-top
+        align-content: start
+
+    &.cols-stretch
+        align-content: stretch
+
+.rows
+    display: flex
+    flex-direction: column
+
+    &.stretch
+        align-content: stretch
+
+.cols
+    display: flex
+    flex-direction: row
+
+    &.stretch
+        align-content: stretch    
+    
+    & > *
+        flex-grow: 1
+        flex-basis: 0
+        &:not(:first-child)
+            margin-left: 4 * $distance
+
+.vspace 
+    margin-top: 0.5 * $field-height
+
+.vspace-large
+    margin-top: $field-height
+
+.very-high
+    min-height: $field-height * 1.6
+
+.ultra-high
+    min-height: $field-height * 3.2
+
+.ultra-ultra-high
+    min-height: $field-height * 4.8
+
+.block
+    flex-grow: 1
+
+.grow-0
+    flex-grow: 0 !important
+
+.grow-1
+    flex-grow: 1 !important
+
+.grow-2
+    flex-grow: 2 !important
+
+.grow-3
+    flex-grow: 3 !important
+
+.grow-4
+    flex-grow: 4 !important
+
+.grow-5
+    flex-grow: 5 !important
+

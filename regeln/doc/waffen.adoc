@@ -1,0 +1,153 @@
+== Waffen, Rüstungen und Munitionsverbrauch
+
+[sidebar]
+****
+Waffen und Ausrüstungen folgen den Extras-Regeln aus dem Fate Core Grundregelbuch ab S.285. Sie verfügen über
+eine Waffen- bzw. Rüstungsstufe, die zusätzliche Erfolgsstufen generieren bzw. egalisieren.
+****
+
+Waffen liefern zusätzliche Trefferstufen bei einem Erfolg, Rüstungen "verschlucken" Trefferstufen bei einem 
+Treffer. Es gibt vier Stufen für Waffen und Rüstungen.
+
+<<<
+
+=== Waffen und Rüstungen
+
+[frame=ends, grid=rows, stripes=even, cols="^1,3*<4a"]
+|===
+| Stufe | Fernkampfwaffen | Nahkampfwaffen | Rüstungen
+
+| 0
+| -
+| 
+* Faustkampf
+* Ringkampf
+| 
+* nackte Haut
+* Alltagskleidung
+
+| 1
+| 
+* Holdout-Pistolen
+* leichte Pistolen
+* Automatikpistolen
+* Shuriken
+* Wurfmesser
+| 
+* Messer
+* improvisierte Waffen (Motorradkette, Besenstiel, ...)
+| 
+* Panzerkleidung
+* Chamäleonanzug
+
+| 2
+| 
+* schwere Pistolen
+* Maschinenpistolen
+* Betäubungsgranaten
+| 
+* Schlagring
+* Kampfmesser
+* Knüppel
+| 
+* Panzerweste
+* Panzerjacke
+* Gefütterter Mantel
+
+| 3
+| 
+* Schrotflinten
+* Jagdgewehre
+* Sturmgewehre
+* Splittergranaten
+* Sprenggranaten
+| 
+* Kampfaxt
+* Katana
+* Schwert
+| 
+* Ganzkörperpanzerung
+
+| 4
+| 
+* Scharfschützengewehre
+* Maschinengewehre
+* Granaten- und Raketenwerfer
+* Sprengstoffe
+| 
+| 
+* militärische Spezialpanzerungen
+|===
+
+Andere Schutzausrüstungen wie Helme, Antiterrorschilde oder ähnliches werden nicht durch Rüstungsstufen
+repräsentiert sondern sollten dem Charakter einen entsprechenden Aspekt verleihen, den er einsetzen kann.
+
+=== Feuerwaffen und _Ausweichen_
+
+Waffengefechte im Universum von Shadowrun sind tödlich und ein Ausweichen gegen ein 
+Hochgeschwindigkeitsgeschoss ist selbst mit Reflexbooster nicht wirklich einfach. Daher haben alle
+Schusswaffen den Aspekt [.aspekt]#Schusswaffe#, die dem Schützen für _jeden Schuss_ einen freien Einsatz 
+gewährt. Durch diesen Einsatz kann der Schütze entweder +2 nehmen oder erneut würfeln.
+
+=== Munitionsarten
+
+Im Shadowrun-Universum gibt es unterschiedliche Munitionsarten wie Explosiv oder APDS. Diese haben 
+unterschiedliche Vor- und Nachteile und modifizieren den Schaden der Waffe, mit der sie verschossen werden.
+In _Schicksalhafte Schatten_ werden diese Munitionsarten nicht unterschieden. Wenn Euch das für Euer Spiel
+wichtig ist könnt Ihr Aspekte verwenden wie bspw. [.aspekt]#APDS-Munition#, die Dir freie Einsätze beschert,
+die bspw. die Waffenstufe um +1 verbessern oder Panzerung ignorieren.
+
+=== Munitionsverbrauch
+
+In Shadowrun wird die Munition sehr genau gezählt und die Charaktere können sehr schnell in die Situation 
+kommen, dass sie keine Munition mehr haben. In _Schicksalhafte Schatten_ wird Munition anders gezählt. 
+
+Wenn Du bei einer _Schießen_ Probe (egal ob Angriff oder Vorteil) einen Gleichstand erziehlst bekommst Du 
+als kleinen Haken den Aspekt [.aspekt]#Magazin leer#. Mit diesem Aspekt kannst Du nicht mehr weiter schießen. 
+Du musst erst nachladen. 
+
+==== Nachladen
+
+Nachladen im Feuergefecht ist nicht immer ganz einfach. Du musst dazu ein Hindernis überwinden und kannst 
+dafür _Schießen_ oder _Handwerk_ verwenden. Der passive Widerstand ist ordentlich (+2). Bei einem Erfolg 
+kannst Du die Aspekte [.aspekt]#Magazin leer# und [.aspekt]#wenig Muni# (siehe <<Automatikmodus>>) entfernen.
+
+==== Automatikmodus
+
+Waffen im Shadowrun-Universum verfügen über verschiedene Feuermodi wie Einzelschuss, Halb-Automatik, Salven
+und Automatikfeuer. _Schicksalhafte Schatten_ modelliert diese nicht. Das Waffen- und Schadenssystem macht 
+Schusswaffen zu einer tödliche Bedrohung und dies berücksichtigt schon einen Großteil der unterschiedlichen
+Feuermodi. 
+
+Eine Ausnahme zu dieser Regel ist der _Automatikmodus_. Alle Shadowrun-Waffen mit dem Feuermodus _AM_ können
+im Automatikmodus feuern. Automatikmodus erlaubt Dir, mehrere Ziele innerhalb einer Zone zu verletzen. Dazu
+würfelst Du den normalen Angriff und kannst anschließend die Erfolgsstufen auf unterschiedliche Gegner 
+verteilen. Diese müssen sich in der selben Zone aufhalten und es sollte plausibel sein, dass Du sie mit einem
+Feuerstoß erreichen kannst.
+
+Nachdem Du Deine Waffe im Automatikmodus abgefeuert hast bekommst Du den Aspekt [.aspekt]#wenig Muni#. Dieser
+Aspekt kann von Dir nicht genutzt werden, aber auch nicht von Gegnern. Wenn Du diesen Aspekt ein zweites Mal
+bekommen würdest, wird er entfernt und Du bekommst statt dessen den Aspekt [.aspekt]#Magazin leer# wie oben
+beschriebebn. Du kannst [.aspekt]#wenig Muni# durch _Nachladen_ entfernen.
+
+====
+Du schießt mit einer Uzi auf eine Gruppe von Schreckhähne. In Deiner Zone befinden sich vier Schreckhähne.
+Du würfelst ein gutes (+3) Ergebnis. Die Uzi hat Waffenstufe 2 so dass Du auf 5 Erfolgsstufen kommst.
+Du kannst diese 5 Stufen nun auf 4 Gegener verteilen. Du könntest einem Schreckhahn 3 Erfogsstufen und einem
+weiteren 2 Erfeolgsstufen zuordnen. Du könntest auch drei Hähnen jeweils 1 Erfolgsstufe und einem Hahn 2
+Stufen geben.
+====
+
+=== Reichweiten
+
+Es gibt keine pauschalen Reichweitenbegrenzungen für Waffen. Statt dessen solltet ihr gemeinsam überlegen,
+welche Gegner von einer Waffe noch erreicht werden können. Verwendet Aspekte wie [.aspekt]#sehr weit 
+entfernt# mit freien Einsätzen für die Verteidigung um entsprechende Situationen aufzulösen.
+
+=== Granaten und Sprengstoffe
+
+Granaten und Sprengstoffe richten Schaden an, der in der Regel mehrere Personen betrifft. Granaten 
+betreffen grundsätzlich _alle Personen innerhalb einer Zone_ (egal ob Freund oder Feind) und richten
+bei allen den entsprechenden Schaden an. 
+
+Sprengstoffe verhalten sich ähnlich, können aber je nach Menge und Einsatz mehr als eine Zone betreffen.

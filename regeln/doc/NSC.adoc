@@ -1,0 +1,126 @@
+== NSCs
+
+// ---------------------------------------------------------------------------
+
+.Barkeeper
+****
+Namenloser NSC (Durchschnittlich)
+
+*Aspekte* 
+
+* [.aspekt]#Trinken oder Gehen#
+
+[cols="<a,<a", frame=none, grid=none]
+|====
+| Fertigkeiten | Ausrüstung
+
+|
+* Empathie (+1)
+* Wahrnehmung (+1)
+
+|
+* Schritflinte (+3) - unter dem Tresen
+|====
+****
+
+// ---------------------------------------------------------------------------
+
+.DocWagon Sanitäter
+****
+Namenloser NSC (Ordentlich)
+
+*Aspekte* 
+
+* [.aspekt]#Hippokratischer Eid#
+
+[cols="<a,<a", frame=none, grid=none]
+|====
+| Fertigkeiten | Ausrüstung
+
+|
+* Wissen (Medizin) (+2)
+* Wahrnehmung (+1)
+* Empathie (+1)
+
+|
+* Hold-Out Pistole (+1)
+* Panzerweste (+2)
+|====
+****
+
+// ---------------------------------------------------------------------------
+
+.Gangmitglied
+****
+Namenloser NSC (Durchschnittlich)
+
+*Aspekte* 
+
+* [.aspekt]#Ich folge meinem Boss#
+* [.aspekt]#Mein Haut ist mir heilig#
+
+[cols="<a,<a", frame=none, grid=none]
+|====
+| Fertigkeiten | Ausrüstung
+
+|
+* Schießen (+1)
+* Wahrnehmung (+1)
+
+|
+* Leichte Pistole (+1)
+* Messer (+1) oder Schlagring (+2)
+* Panzerkleidung (+1)
+|====
+****
+
+// ---------------------------------------------------------------------------
+
+.LoneStar Polizist
+****
+Namenloser NSC (Durchschnittlich)
+
+*Aspekte* 
+
+* [.aspekt]#Hier kann nicht jeder machen was er will#
+
+[cols="<a,<a", frame=none, grid=none]
+|====
+| Fertigkeiten | Ausrüstung
+
+|
+* Schießen (+2)
+* Wahrnehmung (+1)
+* Wissen (Recht) (+1)
+
+|
+* Schwere Pistole (+2)
+* Schlagstock (+2)
+* Panzerweste (+2)
+|====
+****
+
+// ---------------------------------------------------------------------------
+
+.Mechaniker
+****
+Namenloser NSC (Ordentlich)
+
+*Aspekte* 
+
+* [.aspekt]#Ich krieg das wieder hin!#
+
+[cols="<a,<a", frame=none, grid=none]
+|====
+| Fertigkeiten | Ausrüstung
+
+|
+* Handwerk / Tech (+2)
+* Wissen (Fahrzeuge) (+1)
+* Empathie (+1)
+
+|
+|====
+****
+
+// ---------------------------------------------------------------------------

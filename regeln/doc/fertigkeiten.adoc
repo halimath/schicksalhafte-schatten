@@ -1,0 +1,273 @@
+== Fertigkeiten
+
+_Schicksalhafte Schatten_ nutzt die vollständige Liste der Fertigkeiten aus _Fate Core_. Einige der 
+Fertigkeiten werden modifiziert oder eingeschränkt. Es kommen einige (wenige) neue Fertigkeiten hinzu.
+
+=== Übersicht
+
+Die folgende Tabelle gibt einen Überblick über alle Fertigkeiten und welche Aktionen mit der jeweiligen
+Fertigkeit möglich sind.
+
+<<<
+
+[frame=ends, grid=rows, stripes=even, cols="<2h,4*^1"]
+|===
+| Fertigkeit | [.icon]#O# | [.icon]#C# | [.icon]#A# | [.icon]#D#
+
+| Athletik        | X | X |   | X 
+| Charisma        | X | X |   | X
+| Diebeskunst     | X | X |   |   
+| Empathie        | X | X |   | X 
+| Fahren          | X | X | X | X 
+| Handwerk / Tech | X | X |   |   
+| Hacken *        | X | X |   | 
+| Heimlichkeit    | X | X |   | X
+| Kämpfen         | X | X | X | X 
+| Kontakte        | X | X |   | X
+| Kraft           | X | X |   | X 
+| Magie  *        | X | X | X | X 
+| Matrixkampf  *  | X | X | X | X 
+| Nachforschungen | X | X |   |   
+| Provozieren     | X | X | X |
+| Ressourcen *    | X | X | X | X
+| Schießen        | X | X | X |   
+| Täuschung       | X | X |   | X
+| Wahrnehmung     | X | X |   | X 
+| Wille           | X | X |   | X
+| Wissen          | X | X |   | X 
+|===
+
+NOTE: Fertigkeiten, hinter deren Namen ein Sternchen steht, können nur eingeschränkt erworben/
+gesteigert werden. Schau in die Beschreibung dieser Fertigkeiten.
+
+=== Beschreibung der Fertigkeiten
+
+==== Athletik
+
+Athletik wird so eingesetzt wie in den _Fate Core Grundregeln_ beschrieben. Diese Fertigkeit dient der 
+Bewegung in der realen Welt. Bewegungungen in der Astalebene oder der Matrix nutzen andere Fertigkeiten. 
+
+[.icon]#D# Du kannst _Athletik_ zur Verteidigung gegen alle Arten von Angriffen einsetzen (Nahkampf-
+wie Fernkampfangriffe).
+
+==== Charisma
+
+Charisma wird wie in den _Fate Core Grundregeln_ beschrieben eingesetzt.
+
+==== Diebeskunst
+
+Mit Diebeskunst kannst Du Gegenstände stehlen oder Spuren in der realen Welt verwischen. Du kannst dich auch
+an Orte bewegen, an denen du nicht sein solltest, vorausgesetzt, es gibt keine technologisch weit entwickelten
+Sicherungsmaßnahmen (dann würdest du <<Handwerk>> oder <<Hacken>> benötigen).
+
+[.icon]#O# Du kannst Taschendiebstahl oder eine einfach Infiltration durchführen oder Deine Spuren in der
+physischen Welt verwischen.
+
+[.icon]#C# Du kannst Orte oder Personen ausspionieren, wenn du physisch anwesend bist. Du kannst optisch
+erkennbare Sicherheitsmaßnahmen wie Kameras, Sensoren usw. ausspionieren.
+
+[.icon]#A# -
+
+[.icon]#D# -
+
+==== Empathie
+Du kannst Empathie wie in den Fate Core Grundregeln beschrieben einsetzen.
+
+Darüber hinaus wird Empathie auch für die Astraleben eingesetzt (siehe dazu <<Astrale Projektion>>).  
+
+[.icon]#D# Zusätzlich zu den Verteidigungen aus den Fate Core Grundregeln kannst Du Dich gegen magische 
+Angriffe auf der Astralebene verteidigen.
+
+==== Fahren
+Dient dem konventionellen Steuern von Fahrzeugen aller Art. Rigger können über das Extra _Riggen_
+damit Fahrzeuge "by wire" steuern.
+
+Du kannst mit dieser Fertigkeit auch Fahrzeuge rammen wenn Du einen Angriff durchführst. Weitere Details
+sind in <<Rigger und Fahrzeuge>> zu finden.
+
+==== Handwerk / Tech
+Umfasst alle Arten von Arbeiten an Maschinen (Fahrzeuge, Drohnen, Computer, Schlösser, Waffen, ...). Du kannst
+die Aktionen wie in den Fate Core Grundregeln beschrieben einsetzen.
+
+Diese Fertigkeit erfordert eine zusätzliche Unterkategorie. Zu den Kategorien gehören bspw.
+
+* Fahrzeuge (ggf. weiter unterteilt nach Autos, Luftfahrzeuge, Drohnen, ...)
+* Elektronik (wie bspw. elektronische Schlösser, Kameras, Sensoren, ...)
+* Computer (Hard- und Software)
+
+Jede Unterkategorie wird als eigenständige Fertigkeit behandelt. Du kannst beliebig viele Unterkategorien
+erwerben - auch auf unterschiedlichen Fertigkeitsstufen.
+
+[.icon]#O# Du kannst Hindernisse wie mechanische Schlösser überwinden oder defekte Fahrzeuge reparieren. Du
+kannst Computerprogramme schreiben, die ein Problem für Dich lösen (bspw. eine große Datenmenge zu filtern).
+
+[.icon]#C# Du kannst die Fertigkeit einsetzen, um Vorteile durch die Modifikation von technischen Gegenständen
+zu erziehlen, bspw. in dem Du ein Fahrzeug tunst oder eine Waffe modifizierst. Du kannst auch technische 
+Geräte sabbotieren oder Computerprogramme schreiben, die eine Recherche vereinfachen.
+
+[.icon]#A# -
+
+[.icon]#D# -
+
+==== Hacken
+*Neue Fertigkeit*
+
+NOTE: Kann nur erworben werden, wenn Du das Extra _Decker_ oder _Technomancer_ hast. Siehe <<Matrix>>.
+
+Du kannst _Hacken_ einsetzen um in der Matrix Daten zu suchen, zu entschlüsseln oder Dich leise zu bewegen.
+_Hacken_ wird auch für die Initiative im Matrixkampf genutzt.
+
+[.icon]#O# Du kannst Daten auffinden, sie entschlüsseln. Du kannst versuchen, Verteidigungsmaßnahmen durch
+"schleichen in der Matrix" zu umgehen.
+
+[.icon]#C# Du kannst Aspekte erschaffen, die Dir im Matrixkampf einen Vorteil bieten, bspw. in dem Du 
+Programme nutzt, die Deine digitale Signatur verschleiern. Du kannst Deine digitalen Spuren nach einem 
+Einbruch in einen Host verwischen.
+
+[.icon]#A# -
+
+[.icon]#D# -
+
+==== Heimlichkeit
+_Heimlichkeit_ wird wie in den Fate Core Grundregeln beschrieben verwendet.
+
+==== Kämpfen
+_Kämpfen_ wird wie in den Fate Core Grundregeln für Nahkämpfe verwendet.
+
+==== Kontakte
+_Kontakte_ beschreibt Deine soziale Vernetzung und ersetzt die _Connections_ aus dem Shadowrununiversum.
+
+[.icon]#O# Du kannst die Fertigkeit einsetzen, um Hindernisse durch Connections zu lösen, in dem Du den 
+passenden Dealer für den Verkauf von heißer Ware findest oder einen Mechaniker, der Deine Karre wieder
+repariert.
+
+[.icon]#C# Du kannst Vorteile erschaffen, wie bspw. einen Bekannten, der Dir die richtigen Hintergrundinfos
+beschafft oder einen Aussteiger aus der lokalen Gang, der Dir den Ort des Geheimverstecks erzählt.
+
+[.icon]#A# -
+
+[.icon]#D# Du kannst Dich gegen soziale Angriffe verteidigen, in dem Du Connections hast, die Deine Reputation
+verbessern.
+
+==== Kraft
+_Kraft_ wird wie in den Fate Core Grundregeln beschrieben eingesetzt. Dies gilt auch für die Sonderregel,
+die Dir zusätzlich Kästchen für körperlichen Stress verschafft.
+
+==== Magie
+*Neue Fertigkeit*
+
+NOTE: Kann nur erworben werden, wenn Du das Extra _Magier_ hast. Siehe <<Magie>> für Details.
+
+Wird für das Sprechen von Zaubern verwendet.
+
+
+[.icon]#O# Du kannst mittels Magie ein Hindernis überwinden, bspw. eine verschlossene Tür öffnen.
+
+[.icon]#C# Du kannst mittels Magie einen Vorteil erlangen, bspw. unsichtbar werden, größer wirken oder eine 
+Ablenkung in Form eines heranstürmenden Critters erzeugen.
+
+[.icon]#A# Du kannst Kampfzauber verwenden, um andere Charakter in der physischen Welt anzugreifen.
+
+[.icon]#D# Du kannst Gegenzauber verwenden um Dich gegen magische Angriffe in der physischen Welt zu 
+verteidigen.
+
+==== Matrixkampf
+*Neue Fertigkeit*
+
+NOTE: Kann nur erworben werden, wenn Du das Extra _Decker_ oder _Technomancer_ hast. Siehe <<Matrix>>.
+
+Mit der Fertigkeit _Matrixkampf_ kannst Du Konflikte in der Matrix ausfechten. 
+
+[.icon]#O# -
+
+[.icon]#C# -
+
+[.icon]#A# Du kannst Programme starten, die gegnerische Programme bekämpfen und so Schaden verursachen.
+
+[.icon]#D# Du kannst Programme starten oder Firewalls aktivieren, die Dich vor feindlichen Angriffen
+schützen.
+
+==== Nachforschungen
+Mit dieser Fertigkeit kannst Du Recherchen in der Matrix (über einen konventionellen, legalen Zugang) starten
+um Informationen über Orte, Personen, Konzerne, Ereignisse usw. ausfindig zu machen. Die Fertigkeit entspricht
+der Beschreibung in den Fate Core Grundregeln.
+
+==== Provozieren
+Du kannst _Provozieren_ wie in den Fate Core Grundregeln beschrieben einsetzen.
+
+Darüber hinaus wird die Fertigkeit auch für Angriff in der Astraleben eingesetzt; siehe dazu
+<<Astrale Projektion>>.
+
+[.icon]#A# Du kannst Angriffe in der astralen Projektion durchführen.
+
+==== Ressourcen
+
+NOTE: Kann nicht regulär erworben oder gesteigert werden. Siehe die Beschreibung unter <<Ressourcen>>.
+
+Mit der Fertigkeit _Ressourcen_ kannst Du Dinge und Informationen kaufen, Leute bestechen und Du drückst
+dadurch Deinen Lebensstil aus.
+
+[.icon]#O# Du kannst Ressourcen nutzen, um Hindernisse, die sich Geld aus der Welt schaffen lassen zu 
+überwinden. Dazu gehört insbesondere das Bestechen von Personen oder das Kaufen von Gegenständen und 
+Informationen.
+
+[.icon]#C# Du kannst Ressourcen nutzen, um Personen Aspekte hinzuzufügen, dass sie Dir freundlich gestimmt
+sind, wenn sie für Geld anfällig sind. Du kannst auch einen Vorteil erschaffen, in dem Du einen Aspekt für
+einen Ausrüstungsgegenstand hinzufügst, der eine finanzielle Aufwertung darstellt, bspw. ein RedDot-Visier
+für ein Sturmgewehr.
+
+==== Schießen
+Du benutzt _Schießen_ um Deine Fernkampfwaffe einzusetzen. Überlicherweise tust Du dies beim _angreifen_, aber
+Du kannst es auch sehr gut verwenden um einen _Vorteil zu erschaffen_ (z.B. [.aspekt]#Sperrfeuer# oder
+[.aspekt]#Feuerschutz#). In einigen Fällen kannst Du damit auch ein _Hindernis überwinden_.
+
+[.icon]#O# Schießen wird in der Regel nicht für das Überwinden genutzt. Du kannst es aber für 
+Schießwettbewerbe nutzen oder aber auch um einen unbeweglichen Gegenstand wie eine Überwachungskamera zu
+zerstören.
+
+[.icon]#C# Du kannst mit Schießen in einem Konflikt verschiedene Vorteile erschaffen, wie bspw. 
+[.aspekt]#Deckungsfeuer# oder [.aspekt]#festgenagelt#. Du kannst auch versuchen, deine Gegner zu 
+[.aspekt]#entwaffnen#.
+
+[.icon]#A# Natürlich kannst Du Schießen einsetzen, um mit einer Fernkampfwaffe anzugreifen.
+
+[.icon]#D# -
+
+==== Täuschung
+Täuschung wird wie in den Fate Core Grundregeln beschrieben eingesetzt.
+
+==== Wahrnehmung
+Wahrnehmung wird wie in den Fate Core Grundregeln beschrieben eingesetzt, bezieht sich dabei aber immer nur 
+auf die reale Welt.
+
+==== Wille
+Wille wird wie in den Fate Core Grundregeln beschrieben eingesetzt. Dies gilt insbesondere auch für die 
+Sonderregel, die Dir zusätzliche Stressfelder für geistigen Stress bietet.
+
+Darüber hinaus wird die Fertigkeit für Fortbewegung und Verteidigung in der astralen Projektion genutzt;
+siehe dazu <<Astrale Projektion>>.
+
+[.icon]#O# Du kannst Dich in einem Konflikt in der astralen Projektion zwischen Zonen fortbewegen und
+andere Hindernisse überwinden, so wie Du es mittels <<Athletik>> in der realen Welt machst.
+
+[.icon]#C# -
+
+[.icon]#A# -
+
+[.icon]#D# Du nutzt Wille für die Verteidigung gegen Angriffe während Du astral projizierst.
+
+==== Wissen
+In Bezug auf die Aktionen wird Wissen wie in den Fate Core Grundregeln beschrieben eingesetzt.
+
+Wissen erfordert eine Spezialisierung, die bei der Fertigkeit angegeben werden kann.
+Es können mehrere Spezialisierungen als unabhängige Fertigkeiten erworben werden. Beispiele für 
+Spezialisierungen:
+
+* Bioware
+* Cyberware
+* Computer
+* Kriminelle Organisation, wie Mafia, Yakuza, usw.
+* Konzerne
+* Matrix
+* Medizin
+* Strassenwissen / Strassengangs

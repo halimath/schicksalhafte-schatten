@@ -1,0 +1,22 @@
+{
+    "name": "schwert-und-schicksal-charakterbogen",
+    "version": "0.1.0",
+    "description": "Charakterbogen für Schwert & Schicksal",
+    "author": {
+        "name": "Alexander Metzner",
+        "email": "alexander.metzner@gmail.com"
+    },
+    "devDependencies": {
+        "reset-css": "^5.0.1",
+        "puppeteer": "^13.0.1",
+        "node-sass": "^7.0.1",
+        "gulp-cli": "^2.3.0",
+        "gulp": "^4.0.2",
+        "gulp-sass": "^5.1.0",
+        "through2": "^4.0.2"
+    },
+    "scripts": {
+        "build": "gulp all",
+        "start": "gulp all:watch"
+    }
+}
