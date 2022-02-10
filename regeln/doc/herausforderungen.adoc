@@ -23,7 +23,7 @@ Jeder Charakter hat zwei Stressmonitore: körperlich und geistig. Jeder Monitor 
 Stresskästchen von denen jedes genau eine Erfolgsstufe einer Schadensquelle kompensiert. Zusätzlich erhalten
 Charaktere weitere Kästchen entsprechend ihrer Ränge in den folgenden Fertigkeiten:
 
-*  _Stärke_ gewährt weitere Kästchen auf dem körperlichen Stressmonitor
+*  _Kraft_ gewährt weitere Kästchen auf dem körperlichen Stressmonitor
 * _Wille_ gewährt weitere Kästchen auf dem geistigen Stressmonitor
 
 Hat ein Charakter in einer der beiden Fertigkeiten den Rang _ordentlich (+2)_ oder _durchschnittlich (+1)_
@@ -32,4 +32,4 @@ _gut (+3)_ oder _großartig (+4)_ erhält der Charakter insgesamt drei weitere K
 +1 / +2 und zwei weitere für +3 / +4). Bei einem Fertigkeitsrang von _hervorragend (+5)_ oder besser erhält
 der Charakter zusätzlich noch eine weitere _leichte Konsequenz_, die jedoch nur für Schaden verwendet werden
 darf, der dem entsprechenden Monitor zugeordnet ist, also nur geistigen Schaden bei _Wille +5_ bzw. 
-körperlichem Schaden bei _Stärke +5_.
+körperlichem Schaden bei _Kraft +5_.
