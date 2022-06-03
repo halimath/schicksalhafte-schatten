@@ -20,13 +20,11 @@ Fertigkeit möglich sind.
 | Empathie        | X | X |   | X 
 | Fahren          | X | X | X | X 
 | Handwerk / Tech | X | X |   |   
-| Hacken *        | X | X |   | 
 | Heimlichkeit    | X | X |   | X
 | Kämpfen         | X | X | X | X 
 | Kontakte        | X | X |   | X
 | Kraft           | X | X |   | X 
 | Magie  *        | X | X | X | X 
-| Matrixkampf  *  | X | X | X | X 
 | Nachforschungen | X | X |   |   
 | Provozieren     | X | X | X |
 | Ressourcen *    | X | X | X | X
@@ -109,25 +107,6 @@ Geräte sabbotieren oder Computerprogramme schreiben, die eine Recherche vereinf
 
 [.icon]#D# -
 
-==== Hacken
-*Neue Fertigkeit*
-
-NOTE: Kann nur erworben werden, wenn Du das Extra _Decker_ oder _Technomancer_ hast. Siehe <<Matrix>>.
-
-Du kannst _Hacken_ einsetzen um in der Matrix Daten zu suchen, zu entschlüsseln oder Dich leise zu bewegen.
-_Hacken_ wird auch für die Initiative im Matrixkampf genutzt.
-
-[.icon]#O# Du kannst Daten auffinden, sie entschlüsseln. Du kannst versuchen, Verteidigungsmaßnahmen durch
-"schleichen in der Matrix" zu umgehen.
-
-[.icon]#C# Du kannst Aspekte erschaffen, die Dir im Matrixkampf einen Vorteil bieten, bspw. in dem Du 
-Programme nutzt, die Deine digitale Signatur verschleiern. Du kannst Deine digitalen Spuren nach einem 
-Einbruch in einen Host verwischen.
-
-[.icon]#A# -
-
-[.icon]#D# -
-
 ==== Heimlichkeit
 _Heimlichkeit_ wird wie in den Fate Core Grundregeln beschrieben verwendet.
 
@@ -170,22 +149,6 @@ Ablenkung in Form eines heranstürmenden Critters erzeugen.
 
 [.icon]#D# Du kannst Gegenzauber verwenden um Dich gegen magische Angriffe in der physischen Welt zu 
 verteidigen.
-
-==== Matrixkampf
-*Neue Fertigkeit*
-
-NOTE: Kann nur erworben werden, wenn Du das Extra _Decker_ oder _Technomancer_ hast. Siehe <<Matrix>>.
-
-Mit der Fertigkeit _Matrixkampf_ kannst Du Konflikte in der Matrix ausfechten. 
-
-[.icon]#O# -
-
-[.icon]#C# -
-
-[.icon]#A# Du kannst Programme starten, die gegnerische Programme bekämpfen und so Schaden verursachen.
-
-[.icon]#D# Du kannst Programme starten oder Firewalls aktivieren, die Dich vor feindlichen Angriffen
-schützen.
 
 ==== Nachforschungen
 Mit dieser Fertigkeit kannst Du Recherchen in der Matrix (über einen konventionellen, legalen Zugang) starten
