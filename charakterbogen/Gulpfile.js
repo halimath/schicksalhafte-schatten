@@ -6,7 +6,13 @@ const sass = require("gulp-sass")(require("node-sass"));
 const { basename } = require("path");
 const puppeteer = require("puppeteer");
 const through = require('through2');
-const { version } = require("./package.json");
+const version = process.env.VERSION || require("./package.json").version;
+
+const footer = `
+<span style="font-family: sans-serif; font-size: 6px; width: 100%; text-align: center; color: #555555">
+    <a href="https://github.com/halimath/schwert-und-schicksal" style="text-decoration: none; color: #555555">github.com/halimath/schwert-und-schicksal</a>
+    Version ${version}. This work is licensed under a Creative Commons Attribution 4.0 License.
+</span>`
 
 sass.compiler = require("node-sass");
 
@@ -41,12 +47,12 @@ function createPdf(file, enc, cb) {
         .then(() => page.pdf({
             format: "A4",
             printBackground: true,
-            displayHeaderFooter: true,
-            footerTemplate: `<span style="font-family: Ubuntu; font-size: 4px; width: 100%; text-align: center; color: #000; margin: 2px;"><a href="https://github.com/halimath/dnd30crs">github.com/halimath/schwert-und-schicksal</a> Version ${version}. This work is licensed under a Creative Commons Attribution 4.0 License.</span>`,
+            displayHeaderFooter: true,            
+            footerTemplate: footer,
             margin: {
                 top: 0,
                 left: 0,                
-                bottom: 0,
+                bottom: 30,
                 right: 0,
             },
         }))

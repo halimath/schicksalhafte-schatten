@@ -1,4 +1,4 @@
-VERSION = 0.3.0
+VERSION = 0.4.0
 
 NPM = npm
 NPM_FLAGS = 
@@ -29,8 +29,8 @@ $(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).html: $(OUT)
 	$(CP) $(CP_FLAGS) regeln/out/SchicksalhafteSchatten.html $@
 
 $(OUT)/SchicksalhafteSchatten-Charakterbogen-$(VERSION).pdf: $(OUT)
-	$(NPM) $(NPM_FLAGS) --prefix charakterbogen i
-	$(NPM) $(NPM_FLAGS) --prefix charakterbogen run build
+	VERSION=$(VERSION) $(NPM) $(NPM_FLAGS) --prefix charakterbogen i
+	VERSION=$(VERSION) $(NPM) $(NPM_FLAGS) --prefix charakterbogen run build
 	cp charakterbogen/out/charakterbogen.pdf $@
 
 $(OUT):
