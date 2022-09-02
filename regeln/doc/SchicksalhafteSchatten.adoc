@@ -42,6 +42,8 @@ include::./matrix.adoc[leveloffset=0]
 
 include::./rigger.adoc[leveloffset=0]
 
+include::./cyberware.adoc[leveloffset=0]
+
 include::./ressourcen.adoc[leveloffset=0]
 
 include::./waffen.adoc[leveloffset=0]
