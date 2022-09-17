@@ -1,0 +1,19 @@
+FROM node:18
+
+RUN apt-get update
+RUN apt-get install -y chromium
+
+WORKDIR /app
+
+COPY package*.json /app
+ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
+RUN npm i
+
+COPY Gulpfile.js .
+
+COPY entrypoint .
+RUN chmod 755 entrypoint
+
+VOLUME [ "/src", "/out" ]
+
+CMD [ "/app/entrypoint" ]

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ln -s /src .
+ln -s /out .
+
+npm run build

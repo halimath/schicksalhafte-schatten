@@ -13,14 +13,11 @@ RUN wget -O /tmp/roboto-fonts.zip ${roboto_font_download_url}
 RUN unzip -d /usr/share/fonts/google-roboto /tmp/roboto-fonts.zip -x "__MACOSX/*"
 
 RUN mkdir -p /usr/share/fonts/fate-core
-RUN wget -O /tmp/fate-core.zip ${fate_core_font_download_url}}
+RUN wget -O /tmp/fate-core.zip ${fate_core_font_download_url}
 RUN unzip -d /usr/share/fonts/fate-core /tmp/fate-core.zip
 
-VOLUME [ "/out" ]
+VOLUME [ "/src", "/out" ]
 
 WORKDIR /src
 
-COPY regeln ./regeln/
-COPY Makefile .
-
-ENTRYPOINT [ "make", "OUT=/out", "all" ]
+CMD [ "make", "OUT=/out", "all" ]

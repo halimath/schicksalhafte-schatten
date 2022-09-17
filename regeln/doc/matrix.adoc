@@ -11,25 +11,23 @@ sich mit einer Datenbuchse (Cyberware) und einem Cyberdeck in die Matrix einlogg
 _Resonanz_ - eine besondere erwachte Fähigkeit, die die Nutzung der Matrix ohne technisches Equipment
 ermöglicht.
 
-[sidebar]
-****
-Sowohl Decker als auch Technomancer nutzen regeltechnisch die Fertigkeiten _Hacken_ und _Matrixkampf_. Dennoch
-sollten sich die erzählerischen Details bei der Nutzung stark unterscheiden.
-****
+_Decker_ und _Technomancer_ werden in _Schicksalhafte Schatten_ nach den Regeln für _Extras_ aus den Fate Core
+Grundregeln realisiert. Sie sind weiter unten beschrieben. Ein Charakter kann nur _eines_ der beiden
+Extras wählen - nicht beide gleichzeitig. Sowohl Decker als auch Technomancer nutzen regeltechnisch die hier
+beschriebenen Fertigkeiten auf die regeltechnisch gleiche Art und Weise. Erzählerisch sollten sich die 
+Benutzungen jedoch (stark) voreinander unterscheiden.
 
 .Extra: Decker
 ****
 *Voraussetzung*: Dein Charakterkonzept benennt Dich als "Decker".
 
-*Preis*: Du musst mind. 2 Fertigkeitsstufen in _Hacken_ und mind. 2 Fertigkeitsstufen in _Matrixkampf_
-investieren. Reduziere Deine Erholungsstufe um 1.
+*Preis*: Reduziere Deine Erholungsstufe um 1.
 
 Du erhältst die Cyberware _Datenbuchse_, über die Du Dich mit Deinem Cyberdeck verbinden kannst und die
 Matrix nutzen kannst.
 
-Du nutzt die Fertigkeit _Hacken_ anstelle von _Wahrnehmung_ um Dinge in der Matrix zu sehen, für die 
-Initiative im Matrixkampf, für Proben um Daten zu erlangen und anstelle von _Heimlichkeit_. Du nutzt die 
-Fertigkeit _Matrixkampf_ für Angriff und Verteidigung in der Matrix.
+Du hast Zugriff auf die unten beschriebenen Matrixfertigkeiten. Du erhälst zwei zusätzliche Fertigkeitspunkte,
+die du _ausschließlich_ für Matrixfertigkeiten einsetzen kannst.
 
 Stress, den Du im Matrixkampf erleidest, wird gegen Deinen körperlichen Stress gerechnet.
 ****
@@ -38,17 +36,120 @@ Stress, den Du im Matrixkampf erleidest, wird gegen Deinen körperlichen Stress 
 ****
 *Voraussetzung*: Dein Charakterkonzept benennt Duch als Technomancer.
 
-*Preis*: Du musst mind. 2 Fertigkeitsstufen in _Hacken_ und mind. 2 Fertigkeitsstufen in _Matrixkampf_
-investieren. Reduziere Deine Erholungsstufe um 1.
+*Preis*: Reduziere Deine Erholungsstufe um 1.
 
 Du kannst die Matrix durch die besondere Fähigkeit der Resonanz nutzen.
 
-Du nutzt die Fertigkeit _Hacken_ anstelle von _Wahrnehmung_ um Dinge in der Matrix zu sehen, für die 
-Initiative im Matrixkampf, für Proben um Daten zu erlangen und anstelle von _Heimlichkeit_. Du nutzt die 
-Fertigkeit _Matrixkampf_ für Angriff und Verteidigung in der Matrix.
+Du hast Zugriff auf die unten beschriebenen Matrixfertigkeiten. Du erhälst zwei zusätzliche Fertigkeitspunkte,
+die du _ausschließlich_ für Matrixfertigkeiten einsetzen kannst.
 
 Stress, den Du im Matrixkampf erleidest, wird gegen Deinen geistigen Stress gerechnet.
 ****
 
-Computerprogramme, die Du einsetzen möchtest, werden über _Vorteile_ ausgedrückt. Computerprogramme, die ein
-Host gegen Dich einsetzt können entweder über passiven Widerstand oder als Charakter eingesetzt werden.
+=== Fertigkeiten für die Matrix
+
+In der Matrix kannst Du spezielle Fertigkeiten nutzen. Die Fertigkeiten verwenden die gleichen Namen wie
+reguläre Fertigkeiten, werden aber über einen eigenen Fertigkeitswert und als eigenständige Fertigkeit in 
+der Pyramide abgelegt. 
+
+All diese Fertigkeiten können nur erworben werden, wenn Du entweder das Extra _Decker_ oder das Extra
+_Technomancer_ hast.
+
+Die folgende Tabelle listet die Fertigkeiten auf, die Du in der Matrix einsetzen kannst.
+
+<<<
+
+[frame=ends, grid=rows, stripes=even, cols="<2h,4*^1"]
+|===
+| Fertigkeit | [.icon]#O# | [.icon]#C# | [.icon]#A# | [.icon]#D#
+
+| Diebeskunst (Matrix)     | X | X |   |   
+| Heimlichkeit (Matrix)    | X | X |   | X
+| Kämpfen (Matrix)         |   | X | X | X 
+| Täuschung (Matrix)       | X | X |   | X
+| Wahrnehmung (Matrix)     | X | X |   | X 
+|===
+
+==== Diebeskunst (Matrix)
+
+Du benutzt Diebeskunst (Matrix) um Informationen zu stehlen, zu dechiffrieren oder zu fälschen, auf die du
+über die Matrix Zugriff hast. Du kannst damit auch Informationen auffinden, die du eigentlich nicht finden
+solltest oder dir Zugriff auf Systeme verschaffen, zu denen du eigentlich keinen Zugang haben solltest.
+
+[.icon]#O# Du kannst eine Verschlüsselung überwinden und ein Dokument entschlüsseln. Du kannst in einen Raum
+eindringen, zu dem du sonst keinen Zugang hast, in dem du einen nicht abgesicherten Zugang findest.
+
+[.icon]#C# Du kannst deine Spuren für einen Einbruch verwischen.
+
+[.icon]#A# -
+
+[.icon]#D# -
+
+
+==== Heimlichkeit  (Matrix)
+
+Du kannst dich an Wachen (Wachprogrammen) vorbei schleichen oder unbemerkt in einem gefüllten Raum 
+"untertauchen".
+
+[.icon]#O# Du kannst in einen überwachten Raum eindringen oder aus einem bewachten Raum fliehen.
+
+[.icon]#C# Du kannst "unsichtbar" werden.
+
+[.icon]#A# -
+
+[.icon]#D# Du kannst dich gegen "Angriffe" eines aktiv nach dir suchenden Programms oder einer Person
+verteidigen.
+
+
+==== Kämpfen  (Matrix)
+
+Du nutzt Software oder deine Kräfte, um aktiv gegen andere Teilnehmer in der Matrix zu kämpfen oder dich gegen
+Kämpfe zu verteidigen.
+
+[.icon]#O# -
+
+[.icon]#C# Du kannst einen Vorteil erschaffen, in dem du eine bessere Position erziehlst oder den Gegner in
+eine Ecke drängst.
+
+[.icon]#A# Du greifst aktiv an.
+
+[.icon]#D# Du verteidigst dich gegen aktive Angriffe.
+
+==== Täuschung  (Matrix)
+
+Du kannst Information oder Identitäten in der Matrix fälschen und damit andere Teilnehmer in die Irre führen.
+
+[.icon]#O# Du kannst mit einem Bluff an Wachen oder Wachprogrammen vorbei kommen.
+
+[.icon]#C# Du kannst eine falsche Identität oder auch nur einen Teil davon erstellen.
+
+[.icon]#A# -
+
+[.icon]#D# Du kannst falsche Informationen streuen um damit Programme, die aktiv nach dir suchen,
+abzuschütteln.
+
+==== Wahrnehmung  (Matrix)
+
+Du nutzt Wahrnehmung um Dinge in der Matrix zu erkennen.
+
+[.icon]#O# Du kannst ein Detail erkennen, das dir sonst entgangen wäre. Das ist in der Regel keine aktive
+Handlung sondern repräsentiert eine passive Eigenschaft.
+
+[.icon]#C# Du kannst ein Detail erkennen, das dir in einer Situation einen Vorteil bringt, wie bspw. eine 
+Hintertür oder ein Fluchtweg.
+
+[.icon]#A# -
+
+[.icon]#D# Du kannst andere erkennen, die versuchen sich mit Heimlichkeit an dir vorbei zu bewegen.
+
+
+=== Computerprogramme
+
+Computerprogramme, die Du einsetzen möchtest, können als _Stunts_ oder als _Vorteile_ umgesetzt werden. 
+
+Wenn du eine bestimmte Art der Handlung in der Matrix sehr gut vorbereitet hast, in dem du ein spezielles
+Programm dafür eintwickelt hast, dann sollte dies als _Stunt_ verwendet werden. Dieser Stunt bietet dir dann
+einen spezifischen Vorteil, bspw. beim _Eindringen in einen passiv geschützten Raum_ (mittels Diebeskunst).
+
+Falls du ad-hoc ein Programm erstellst, um dir in einer konkreten Situation zu helfen, ist das ein _Vorteil_
+den du mit einer der Matrixfertigkeiten erstellst.

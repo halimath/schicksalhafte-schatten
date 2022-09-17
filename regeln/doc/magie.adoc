@@ -7,15 +7,15 @@ Magie wird in _Schicksalhafte Schatten_ nach den Regeln für _Extras_ aus den Fa
 *Voraussetzung*: Dein <<Konzept>> muss erwähnen, welcher Form der Magie (Magier, Hexenmeister, Schamane,
 Adept) Du folgst.
 
-*Preis*: Du musst mindestens 3 Fertigkeitsstufen in _Magie_ haben. Reduziere Deine Erholungsstufe um 1.
+*Preis*: Reduziere Deine Erholungsstufe um 1.
 
 NOTE: Nur Charaktere mit diesem Extra dürfen Fertigkeitsstufen in _Magie_ besitzen und diese Fertigkeit 
 einsetzen.
 
-NOTE: Wenn Du Magie einsetzen möchtest _darfst_ Du keine <<Bio- und Cyberware>> 
-verwenden.
+NOTE: Wenn Du Magie einsetzen möchtest _darfst_ Du keine <<Bio- und Cyberware>> verwenden.
 
-Du kannst _Magie_ nach den unten beschriebenen Regeln einsetzen.
+Du kannst _Magie_ nach den unten beschriebenen Regeln einsetzen. Wähle zwei Zauber, die du initial beherrscht.
+Weitere Zauber können als _Stunts_ erworben werden.
 ****
 
 Magie und Bio- oder Cyberware vertragen sich nicht. Shadowrun verwendet die _Essenz_ um
@@ -28,6 +28,10 @@ Magie-Fähigkeiten.
 === Zauber sprechen
 Das Sprechen eines Zaubers erfordert eine Probe auf _Magie_. Je nach Situation kann dies ein _Hindernis
 überwinden_, einen _Vorteil erschaffen_ oder auch _Angreifen_ und _Verteidigen_ sein.
+
+Jeder Zauber wird als _Stunt_ für die Fertigkeit _Magie_ realisiert. Nur wenn Du den entsprechenden Stunt
+hast, weißt du, wie der Zauber zu sprechen ist. Lege bei der Auswahl des Zaubers die Schwierigkeit und den 
+Entzug fest.
 
 ==== Entzug
 Das Sprechen von Zaubern kostet viel Kraft, Anstrengung und Konzentration. Jeder Zauber verursacht 
@@ -42,10 +46,6 @@ Der Stress wird unabhängig davon verursacht, ob der Zauber erfolgreich war oder
 Jeder aufrechterhaltene Zauber (bspw. eine magische Rüstung oder Barriere) funktioniert wie ein freie Einsatz
 für den "angreifenden Zauber" und erhöht den Entzug um +2. SL: Du muss diesen "freien Einsatz" berücksichtigen
 wenn Du für den Zauber angreifst.
-
-==== Stunts für Zauber
-Charaktere können Stunts erwerben, um bestimmte Zauber (bspw. _Feuerball_ oder _Heilung_) mit einem
-Bonus verwenden zu können. Diese können auch beinhalten, dass sie einen Bonus bei der Entzugsprobe bekommen.
 
 === Astral Wahrnehmen
 Nutzer mit dem Extra _Magie_ können astral wahrnehmen. Dazu nutzen sie die Fertigkeit _Empathie_ um entweder
