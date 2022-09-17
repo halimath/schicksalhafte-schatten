@@ -2,7 +2,7 @@
 
 const gulp = require("gulp");
 const Vinyl = require("vinyl");
-const sass = require("gulp-sass")(require("node-sass"));
+const sass = require("gulp-sass")(require("sass"));
 const { basename } = require("path");
 const puppeteer = require("puppeteer");
 const through = require('through2');
@@ -14,10 +14,10 @@ const footer = `
     Version ${version}. This work is licensed under a Creative Commons Attribution 4.0 License.
 </span>`
 
-sass.compiler = require("node-sass");
+sass.compiler = require("sass");
 
 function sassTask() {
-    return gulp.src("./styles/*.sass")
+    return gulp.src("./src/styles/*.sass")
         .pipe(sass().on("error", sass.logError))
         .pipe(gulp.dest("./css"));
 }
@@ -25,7 +25,7 @@ function sassTask() {
 gulp.task("sass", sassTask);
 
 gulp.task("sass:watch", function () {
-    gulp.watch(["./styles/**/*.sass"], sassTask);
+    gulp.watch(["./src/styles/**/*.sass"], sassTask);
 });
 
 function createPdf(file, enc, cb) {
@@ -33,7 +33,10 @@ function createPdf(file, enc, cb) {
     let page
     let pdfData
 
-    puppeteer.launch()
+    puppeteer.launch({
+        executablePath: '/usr/bin/chromium',
+        args: ['--no-sandbox'],
+    })
         .then(b => {
             browser = b;
             return browser.newPage();
@@ -68,7 +71,7 @@ function createPdf(file, enc, cb) {
 }
 
 function pdfTask () {
-    return gulp.src("./*.html")
+    return gulp.src("./src/*.html")
         .pipe(through.obj(createPdf))
         .pipe(gulp.dest("out"));
 }
@@ -76,10 +79,10 @@ function pdfTask () {
 gulp.task("pdf", pdfTask);
 
 gulp.task("pdf:watch", function () {
-    gulp.watch(["./*.html"], pdfTask);
+    gulp.watch(["./src/*.html"], pdfTask);
 });
 
 gulp.task("all", gulp.series("sass", "pdf"));
 gulp.task("all:watch", () => {
-    gulp.watch(["./*.html", "./styles/**/*.sass"], gulp.series("sass", "pdf"))
+    gulp.watch(["./src/*.html", "./src/styles/**/*.sass"], gulp.series("sass", "pdf"))
 });

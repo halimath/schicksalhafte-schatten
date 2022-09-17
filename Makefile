@@ -1,43 +1,52 @@
-VERSION = 0.4.0
+OUT ?= out
 
-NPM = npm
-NPM_FLAGS = 
+VERSION := 0.4.0
 
-CP = cp
-CP_FLAGS =
+NPM ?= npm
+NPM_FLAGS ?= 
 
-MKDIR = mkdir
-MKDIR_OPTS = -p
+MV ?= mv
+MV_FLAGS ?=
 
-RM = rm
-RM_OPTS = -rf
+MKDIR ?= mkdir
+MKDIR_OPTS ?= -p
 
-FIND = find
+RM ?= rm
+RM_OPTS ?= -rf
 
-OUT := out
+FIND ?= find
 
-.PHONY: clean all mrproper
+PODMAN ?= podman
+CONTAINER_IMAGE_REGELN := schicksalhafte-schatten-regeln
+CONTAINER_IMAGE_CHARAKTERBOGEN := schicksalhafte-schatten-charakterbogen
 
-all: $(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).pdf $(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).html $(OUT)/SchicksalhafteSchatten-Charakterbogen-$(VERSION).pdf
+.PHONY: clean all regeln charakterbogen $(CONTAINER_IMAGE_REGELN) $(CONTAINER_IMAGE_CHARAKTERBOGEN)
 
-$(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).pdf: $(OUT)
-	$(MAKE) -C regeln VERSION=$(VERSION) OUT=out out/SchicksalhafteSchatten.pdf
-	$(CP) $(CP_FLAGS) regeln/out/SchicksalhafteSchatten.pdf $@
+all: $(CONTAINER_IMAGE_REGELN) $(CONTAINER_IMAGE_CHARAKTERBOGEN) regeln charakterbogen
 
-$(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).html: $(OUT)
-	$(MAKE) -C regeln VERSION=$(VERSION) OUT=out out/SchicksalhafteSchatten.html
-	$(CP) $(CP_FLAGS) regeln/out/SchicksalhafteSchatten.html $@
+regeln: $(OUT)
+	$(PODMAN) run --rm -it -v "$(shell pwd)/regeln:/src" -v "$(shell pwd)/out:/out" $(CONTAINER_IMAGE_REGELN)
+	$(MV) $(MV_FLAGS) $(OUT)/SchicksalhafteSchatten.pdf $(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).pdf
+	$(MV) $(MV_FLAGS) $(OUT)/SchicksalhafteSchatten.html $(OUT)/SchicksalhafteSchatten-Regeln-$(VERSION).html
 
-$(OUT)/SchicksalhafteSchatten-Charakterbogen-$(VERSION).pdf: $(OUT)
-	VERSION=$(VERSION) $(NPM) $(NPM_FLAGS) --prefix charakterbogen i
-	VERSION=$(VERSION) $(NPM) $(NPM_FLAGS) --prefix charakterbogen run build
-	cp charakterbogen/out/charakterbogen.pdf $@
+charakterbogen: $(OUT)
+	$(PODMAN) run --rm -it -v "$(shell pwd)/charakterbogen/src:/src" -v "$(shell pwd)/out:/out" $(CONTAINER_IMAGE_CHARAKTERBOGEN)
+	$(MV) $(MV_FLAGS) $(OUT)/charakterbogen.pdf $(OUT)/charakterbogen-$(VERSION).pdf
+
+
+# $(OUT)/SchicksalhafteSchatten-Charakterbogen-$(VERSION).pdf: $(OUT)
+# 	VERSION=$(VERSION) $(NPM) $(NPM_FLAGS) --prefix charakterbogen i
+# 	VERSION=$(VERSION) $(NPM) $(NPM_FLAGS) --prefix charakterbogen run build
+# 	cp charakterbogen/out/charakterbogen.pdf $@
 
 $(OUT):
 	$(MKDIR) $(MKDIR_OPTS) $(OUT)
 
+$(CONTAINER_IMAGE_REGELN):
+	$(PODMAN) build -f regeln/Containerfile -t $(CONTAINER_IMAGE_REGELN) regeln
+
+$(CONTAINER_IMAGE_CHARAKTERBOGEN):
+	$(PODMAN) build -f charakterbogen/Containerfile -t $(CONTAINER_IMAGE_CHARAKTERBOGEN) charakterbogen
+
 clean:
 	$(RM) $(RM_OPTS) $(OUT)
-
-mrproper:
-	$(FIND) . -name "$(OUT)" -type d | xargs rm -rf

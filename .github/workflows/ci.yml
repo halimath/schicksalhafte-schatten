@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - feature/*
   pull_request:
 
 jobs:
@@ -45,3 +46,11 @@ jobs:
         run: npm run build
         working-directory: charakterbogen
 
+  release-artefakte:
+    name: Generiert alle Release Artefakte über Container
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Artefakte generieren
+        run: make all 
